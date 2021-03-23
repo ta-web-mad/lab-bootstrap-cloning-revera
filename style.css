@@ -1,0 +1,192 @@
+.head {
+    margin-bottom: 12px;
+}
+
+
+header a {
+    color: black;
+}
+
+.head-ul {
+    margin-top: 20px;
+}
+
+.home-li {
+    color: red;
+}
+
+.title {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.head li {
+    justify-content: space-around;
+    list-style-type: none;
+    text-align: center;
+}
+
+.head ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head a {
+    text-decoration: none;
+}
+
+
+.section-2 {
+    background-image: url("../lab-bootstrap-cloning-revera/img/project-2.jpg");
+    background-size: cover;
+    padding-bottom: 250px;
+}
+
+.sec2-text h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.sec2-text p {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.read-more {
+    text-align: center;
+    border: solid white;
+    padding: 8px 30px;
+    position: relative;
+    top: 100px;
+    left: 45%;
+}
+
+.section-3 {
+    margin-bottom: 30px;
+    background-color: rgb(212, 76, 76);
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+
+.project-title {
+    margin-bottom: 30px;
+    border-bottom: rgb(136, 127, 127);
+}
+
+.project-title h2 {
+    text-align: left;
+}
+
+.project-title p {
+    text-align: left;
+    color: gray !important;
+}
+
+.boxitems a {
+    color: black !important;
+}
+
+.boxitems p {
+    color: black;
+}
+
+.section-3 h2 {
+    text-align: center;
+}
+
+.section-3 p {
+    text-align: center;
+}
+
+.section-3 i {
+    position: relative;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+}
+
+.section-4 {
+    margin-bottom: 40px;
+}
+
+
+.articles-1 {
+    margin-bottom: 50px;
+}
+
+.articles-1 p {
+    color: black;
+}
+
+.articles-1 img{
+    width: 100%;
+    color: black;
+}
+
+.article-title h2{
+    text-align: left;
+}
+
+.article-title p {
+    text-align: left;
+    color: gray !important;
+}
+
+.latest-articles img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.latest-articles p {
+    color: black;
+    margin-top: 20px;
+}
+
+.latest-articles a {
+    color: black;
+}
+
+.latest-articles span {
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+
+.last-section {
+    background-color: rgb(68, 67, 67);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: solid red;
+}
+
+.last-section, h3, a, p {
+    color: white;
+    text-align: left;
+}
+
+.last-section li {
+    justify-content: left;
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+    border-bottom-style: dotted;
+}
+
+
+
+.mv-center {
+    position: relative;
+    left: 15%;
+}
+
+
+footer {
+    background-color: rgb(48, 46, 46);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
