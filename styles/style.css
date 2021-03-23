@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    /* position: fixed; */
+}
+
+.nav-bar div{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    color: black;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-bar div>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+    color: gray;
+    margin-top: 10px;
+}
+
+.home-red{
+    color: #F44736;
+}
+
+.gray-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 80px;
+    background-image: url(../img/overlay.png), url("../img/slider-1.jpg");
+    filter: grayscale(100%);
+    background-repeat: repeat, no-repeat;
+    background-size: contain, 100%;
+    background-position: top left, center;
+    color: white;
+}
+
+.gray-section a{
+    display: block;
+    padding: 10px;
+    border: solid white 1px;
+    color: white;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?iysgkf');
+    src:  url('fonts/icomoon.eot?iysgkf#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?iysgkf') format('truetype'),
+      url('fonts/icomoon.woff?iysgkf') format('woff'),
+      url('fonts/icomoon.svg?iysgkf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-home3:before {
+    content: "\e902";
+  }
+  .icon-glass2:before {
+    content: "\e9a1";
+  }
+
+  .icon-heart:before {
+    content: "\e9da";
+  }
+
+  .red-back{
+      background-color:#F44736 ;
+      color: white;
+      text-align: center;
+      padding: 60px;
+  }
+
+  .red-back span{
+      font-size: 30px;
+      border: solid white 2px;
+      padding: 10px;
+      border-radius: 50%;
+  }
+
+  .red-back h2{
+      padding: 10px;
+  }
+
+  .grey-upper{
+      color: gray;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  
+  .container img{
+    width: 100%;
+  }
+
+  .separation{
+      background-color: #F44736;
+      height: 5px;
+      margin-bottom: 0;
+  }
+
+  .back-semiblack{
+      background-color: #3b3b3b;
+      color: white;
+  }
+
+  .back-semiblack h3{
+      text-transform: uppercase;
+      font-size: 1.2em;
+      padding: 10px 0px;
+      font-weight: normal;
+  }
+
+  .back-semiblack p{
+      color: #aaa;
+  }
+
+  .back-semiblack-links{
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: dotted #aaa 1px;
+    padding: 10px 0px;
+    display: block;
+  }
+
+  .prueba{
+      display: block;
+  }
+
+  footer{
+    background-color: #292929;
+    font-size: 12px;
+    color: #eeee;
+    padding: 10px 0px;
+  }
+
+  h2{
+      margin-top: 20px;
+  }
