@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 20px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    color: black;
+}
+ul{
+    display: flex;
+}
+nav li{
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+nav img{
+    width: 200px;
+    margin-right: 100px;
+}
+.gato-fondo{
+    background-image: url("img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-color: teal;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 150px;
+    text-align: center;
+}
+
+.button{
+    text-transform: uppercase;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+.section2{
+    background-color: coral;
+    color: white;
+    border-color: black;
+    text-align: center;
+}
+.section2 img{
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    color: white;
+}
+.container img{
+    width: 50px;
+    margin-top: 50px;
+}
+ 
+ .container-1{
+     margin-top: 50px;
+ }
+ .container-2{
+     margin-top: 50px;
+ }
+ .container-1 img{
+     width: 250px;
+ }
+ .container-1 p{
+     margin-top: 10px;
+ }
+ .container.1 h3{
+     font-weight: bold;
+ }
+ .container-1 h4{
+     margin-top: 20px;
+     font-size: 16px;
+ }
+ .container-2 h4{
+     font-weight: bold;
+ }
+ .container-2 .col-3{
+     justify-content: start;
+ }
+ .light{
+     font-weight: lighter;
+ }
+ .pre-last{
+     margin-top: 100px;
+     background-color: rgb(7, 37, 37);
+     color: white;
+    padding-bottom: 50px;
+ }
+ .pre-last h5{
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-top: 50px;
+     margin-bottom: 20px;
+ }
+ .pre-last a{
+     text-decoration: none;
+     color: white;
+     list-style: none;
+ }
+ .pre-last{
+     list-style: none;
+ }
+.pre-last hr{
+    border-top: 1px dotted;
+}
+.last{
+    color: white;
+    background-color: rgb(8, 0, 0);
+    background-size: 100px;
+   height: 100px;
+   align-items: center;
+   font-style: oblique;
+   font-weight: lighter;
+   font-size: 12px;
+   text-align:  ;
+}
