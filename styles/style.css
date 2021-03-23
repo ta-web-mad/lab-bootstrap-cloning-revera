@@ -44,16 +44,17 @@
 
 .gray-section{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     text-align: center;
-    padding: 80px;
+    padding: 80px 0px;
     background-image: url(../img/overlay.png), url("../img/slider-1.jpg");
-    filter: grayscale(100%);
+    filter: grayscale(1);
     background-repeat: repeat, no-repeat;
     background-size: contain, 100%;
     background-position: top left, center;
     color: white;
+    z-index: 0;
 }
 
 .gray-section a{
@@ -172,4 +173,28 @@
 
   h2{
       margin-top: 20px;
+  }
+
+  .icon-forward:before {
+    content: "\e969";
+  }
+  .icon-undo2:before {
+    content: "\e967";
+  }
+
+  .next{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .next a{
+      background-color: #F44736;
+      filter: none;
+      z-index: 9999;
+      height: 100px;
+      padding: 40px 20px;
   }
