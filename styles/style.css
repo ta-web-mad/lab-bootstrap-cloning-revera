@@ -1,0 +1,152 @@
+body{
+   font-family: 'Oxygen', sans-serif;
+   font-size: 1.4em;
+   line-height: 1.6;
+}
+
+header{
+    margin: 25px 0;
+    
+
+
+}
+
+header ul {
+    display: flex;
+    justify-content: left;
+    
+}
+
+header ul li{
+    list-style: none;
+    padding: 0 10px;
+    color: rosybrown;
+    font-size: .7em;
+    font-weight: lighter;
+}
+
+a .logo{
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+}
+
+.top-box{
+    background: url(../img/overlay.png) repeat, url(../img/slider-1.jpg) no-repeat;
+    height: 500px;
+    filter: grayscale(100%);
+    
+}
+
+.top-contain{
+    text-align: center;
+    width: 60%;
+    color: white;
+    padding-top: 150px;
+}
+
+.top-contain p{
+    font-weight: lighter;
+    font-size: .8em;
+}
+
+.button{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 5px 30px;
+    width: 250px;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.features-contain{
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: lighter;
+}
+
+.middle-container{
+    padding-top: 30px;
+}
+
+.latest-subtitle{
+    color: grey;
+}
+
+.latest-pictures{
+    width: 250px;
+}
+
+.latest-content{
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.latest-links{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ed564b;
+    font-size: .5em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.latest-box-titles{
+font-weight: bold;
+font-size: .7em;
+margin-top: 15px;
+}
+
+.latest-article-content{
+    text-align: left;
+    font-size: .6em;
+    color: grey;
+    margin-top: 10px;
+}
+
+.bottom-container{
+   background-color: #404040;
+   border-top: 5px solid #f96b61;
+   color: #aaa;
+   padding: 40px 0;
+   font-size: .6em;
+   text-align: left;
+}
+
+.bottom-title{
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.bottom-li{
+    color: #aaa;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.bottom-container ul{
+    padding: 0;
+}
+
+footer{
+    background-color: #292929;
+    color: #eee;
+    font-size: .5em;
+    padding: 10px 0;
+}
