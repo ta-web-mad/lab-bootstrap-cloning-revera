@@ -1,0 +1,155 @@
+/* ICONS */
+
+.fa-angular{
+    font-size: 150px;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header a{
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.nav-bar{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 20px;
+    
+}
+.nav-bar> ul{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-bar > ul > li:first-child {
+    color: #ed564b;
+}
+
+.slider img {
+ width: 100%;
+ height: 100%;
+ z-index: -100;
+}
+
+.slider {
+    width: 100%;
+    height: 600px;
+    background: url(../img/slider-1.jpg) no-repeat center center;
+    background-size: cover ;
+}
+
+.maintxt {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    width: 250px;
+
+}
+
+.service-sect{
+    background-color: #ed564b;
+    width: 100% !important;
+}
+
+.service-sect article {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.titles-updates{
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.titles-updates p {
+    color: #aaa;
+    font-weight: bold;
+}
+
+.projects img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.projects p {
+    font-weight: bold;
+}
+
+.info-date {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 12px;    
+    }
+
+.info-date span {
+    color: red;
+}
+
+.summary {
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+
+.footer-1st{
+    background-color: #3b3b3b;
+    padding: 40px;
+}
+
+.footer1-text > p, h3  {
+    color: white;
+}
+
+.link-footer{
+    list-style: none;
+    padding-left: 0;
+}
+
+.link-footer li {
+    padding-bottom: 5px;
+    border-bottom: 2px dotted grey;
+}
+
+.link-footer a {
+    width: 100%;
+    color: grey;
+}
+
+.footer-2nd{
+    background-color: #292929;
+}
+
+.footer2-text{
+    padding: 15px;
+    padding-left: 0 !important;
+    color: white;
+}
