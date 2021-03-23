@@ -1,0 +1,138 @@
+/*
+red         rgb(221, 96, 82)
+light red   rgb(233, 116, 103)
+light gray  rgb(59,59,59)
+dark gray   rgb(41,41,41)
+*/
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.reveraLogo{
+    font-size: 2em;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navBar{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.navLink{
+    color: lightgrey;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.navHome{
+    color: rgb(221, 96, 82);
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.mainInfo .window{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 550px;
+    background-image: url("../img/slider-1.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overlay{
+    position: absolute; /*???*/
+}
+
+.arrowButton{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(221, 96, 82);
+    padding: 30px 0;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.back{
+    transform: rotate(180deg);
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.content h1{
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.readmoreButton{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 25px;
+    border: 2px white solid;
+    padding: 7px 35px;
+}
+
+.features{
+    height: 350px;
+    background-color: rgb(221, 96, 82);
+    border-top: rgb(233, 116, 103) solid 7px;
+    border-bottom: rgb(233, 116, 103) solid 7px;
+    display: flex;
+    align-items: center;
+}
+
+.indFeature{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: white;
+    padding: 0 25px;
+}
+
+.indFeature span{
+    font-size: 1.25em;
+    position: relative;
+    bottom: 40px;
+    border: white solid 4px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.indFeature p{
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+figure a img{
+    width: 100%;
+}
