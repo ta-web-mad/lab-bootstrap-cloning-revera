@@ -1,0 +1,196 @@
+body {
+    font-family: sans-serif;
+} 
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.revera-logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav {
+    margin: auto;
+}
+
+nav a {
+    padding-left: 15px;
+    font-size: 0.8em;
+    color: grey;
+}
+
+nav a:hover {
+    color: #ed564b;
+    text-decoration: none;
+}
+
+.top-bar {
+    padding: 20px 0px;
+}
+
+header {
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.red-text {
+    color: #ed564b;
+    }
+
+.header-background {
+    background: url("img/slider-1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) brightness(75%);
+}
+
+.header-title {
+    display: block;
+    margin: 180px 0 65px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.header-button {
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid;
+    text-decoration: none;
+    padding: 7px 15px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 180px;
+    font-weight: 800;
+    font-size: 0.8em;
+}
+
+.header-button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.services {
+    background-color: #ed564b;
+    text-align: center;
+    color: white;
+    padding: 35px 0 45px;
+}
+
+.services i {
+font-size: 0.8em;
+border: 2px solid;
+padding: 18px;
+border-radius: 36px;
+}
+
+.services h2 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.services p {
+    font-size: 0.7em;
+}
+
+.projects-articles {
+    padding-top: 40px;
+} 
+
+.projects-articles h2 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 0.65em;
+    font-weight: 600;
+}
+
+.projects-articles hr {
+    border: 1px solid lightgray;
+}
+
+figcaption {
+    font-size: 0.65em;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.projects-articles img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.projects-articles p {
+    font-size: 0.65em;
+}
+
+.date-author-post {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer-sections {
+    border-top: 4px solid #ed564b;
+    background-color: #3b3b3b;
+    margin-top: 20px;
+    padding: 40px 0 20px;
+}
+
+.footer-sections h3 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.footer-sections p {
+    margin-top: 20px;
+    font-size: 0.75em;
+    margin: 0;
+    padding: 5px 0 5px;
+    color: #a9a9a9;
+}
+
+.footer-sections hr {
+    border-top: 1px dotted #a9a9a9;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-copyright {
+    background-color: #292929;
+    color: white;
+    font-size: 0.7em;
+    padding: 17px 0 5px;
+}
