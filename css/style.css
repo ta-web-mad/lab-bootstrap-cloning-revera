@@ -1,0 +1,269 @@
+header nav {
+    display: flex;
+    align-items: center;
+    padding: 6em 6em 2em;
+}
+
+header ul {
+    display: flex;
+    margin: auto;
+    margin-bottom: 0;
+
+}
+
+header li {
+    list-style: none;
+    text-decoration: none;
+    padding: 0 1em;
+    font-size: 0.9em;
+}
+
+header li a:hover {
+    color: tomato;
+    text-decoration: none;
+}
+
+header a {
+    color: grey;
+}
+
+.home-button {
+    color: tomato;
+}
+
+.section1 {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Overlay trick because I didn't find anything better 
+ https://css-tricks.com/apply-a-filter-to-a-background-image/ 
+*/
+
+.section1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/slider-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: grayscale();
+}
+
+.section1 a {
+    color: white;
+    position: relative;
+}
+
+.section1 h1,
+.section1 p {
+    text-align: center;
+}
+
+.section1 div {
+    width: 60%;
+    text-align: center;
+    position: relative;
+}
+
+.read-button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 1px solid white;
+    padding: 5px 20px;
+}
+
+.read-button:hover {
+    text-decoration: none;
+}
+
+.carousel-button {
+    background-color: tomato;
+    padding: 1em 0.5em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.carousel-button:hover {
+    background-color: white;
+    color: tomato;
+    text-decoration: none;
+}
+
+.section2 {
+    background-color: tomato;
+    border-top: 4px solid coral;
+    border-bottom: 4px solid coral;
+    padding: 4em;
+}
+
+.section2 article {
+    text-align: center;
+    color: white;
+}
+
+.icon-wrapper {
+    padding: 1em;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.text-wrapper {
+    margin-top: 2em;
+}
+
+.section2 p > a {
+    color: tomato;
+}
+
+.section2 p > a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.section3 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.section3 img, 
+.section4 img {
+    width: 250px;
+    height: 150px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.section3 h2,
+.section3 h3,
+.section4 h2,
+.section4 h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.section3 h2,
+.section4 h2 {
+    font-size: 1.5em;
+}
+
+.section3 h3,
+.section4 h3 {
+    color: grey;
+    font-size: 0.9em;
+    margin-bottom: 1.5em;
+}
+
+.section3 p {
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 15px;
+}
+
+.section3 p > a {
+    color: black;
+}
+
+.section3 p > a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.section4 h3 a {
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: grey;
+}
+
+h4 a {
+    color: tomato;
+}
+
+h4 a:hover {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.section4 article p {
+    color: rgb(100, 99, 99);
+    font-size: 0.85em;
+    line-height: 18px;
+}
+
+footer {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border-top: 4px solid tomato;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    color: darkgrey;
+}
+
+footer article p {
+    color: darkgrey;
+}
+
+footer article p,
+footer li {
+    font-size: 0.9em;
+}
+
+footer li {
+    padding: 0.5em 0;
+    border-bottom: 1px dotted darkgrey;
+}
+
+footer li:first-child {
+    padding-top: 0;
+}
+
+footer h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+footer span {
+    border-bottom: 1px dotted darkgrey;
+}
+
+.column-wrapper {
+    padding: 3em 0;
+}
+
+.copyright {
+    background-color: rgb(45, 45, 45);
+    padding: 1.3em 0;
+    font-size: 0.8em;
+}
+
+.copyright p {
+    margin-bottom: 0;
+}
+
+.copyright a {
+    color: white;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+}
