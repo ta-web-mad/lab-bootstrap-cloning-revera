@@ -1,0 +1,157 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:grey;
+}
+
+.ul {
+    color: grey;
+}
+
+.ul-1 {
+    color: red;
+}
+
+li {
+    padding-right: 20px;
+    font-size: 0.7em;;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: flex;
+    font-size: 25px;
+}
+
+.first-section {
+    background-image: url(../lab-bootstrap-cloning-revera/img/slider-1.jpg);
+    filter: gray;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 430px;
+    text-align: center;
+}
+
+.f-row-img {
+    width: 80%;
+}
+
+.learn-more {
+    border: 1px solid white;
+    color: white;
+    padding: 5px 30px;
+    background-color: Transparent;
+    background-repeat:no-repeat
+}
+
+.one {
+    font-size: 12px;
+}
+
+.text {
+    margin-top: 9.5%;
+    position: absolute;
+    color: white;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.second-section{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 0.7em;
+}
+
+.header {
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-transform: uppercase
+}
+
+.paragraph {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: grey;
+    font-size: 0.8em
+}
+
+.footer {
+    background-color: rgb(55, 59, 61);
+    color: white;
+}
+
+.footer-div{
+    padding-top: 40px;
+}
+
+.image {
+    width: 60px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.row {
+    margin-bottom: 40px;
+}
+
+
+.last-div {
+    padding-left: 10%;
+    background-color: black;
+    font-size: 12px;
+}
+
+.revera{
+    font-size: 12px;
+}
+
+.last-li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.revera > h4 {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.p {
+    font-size: 0.7em;
+}
+
+{
+    padding-left: 250px;
+    padding-right: 250px
+}
+
+span {
+    color: red;
+}
