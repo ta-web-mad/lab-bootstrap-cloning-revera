@@ -16,6 +16,10 @@
     justify-content: space-between;
     width: 100%;
 }
+.menu li:hover {
+    color: red;
+    transition-duration: 1s;
+}
 .menu li {
     margin: 20px;
 }
@@ -113,6 +117,9 @@
 }
 .title {
     font-weight: bolder;
+}
+.read {
+    font-size: 0.8em;
 }
 .date {
     text-transform: uppercase;
