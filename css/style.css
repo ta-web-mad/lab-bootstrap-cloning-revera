@@ -1,0 +1,155 @@
+
+.menuu {
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menuu a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  font-weight: 450;
+}
+
+
+.menuu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.menuu ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav p {
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+.gray {
+    width: 100%;
+    filter: grayscale(100%);
+ 
+}
+
+
+h4 {
+    color: white;
+    margin: 10px;
+}
+
+.articles {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 30px;
+}
+
+.articles article{
+   width: 15%;
+   text-align: center;
+}
+
+article p {
+    color: white;
+    padding: 10px;
+}
+
+article img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+  
+}
+
+div img{
+
+   
+    width: 260px;
+}
+
+
+h2 {
+
+    margin: 15px;
+}
+
+div {
+
+   
+}
+
+.texto {
+
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+.texto2 {
+
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 900;
+    color: black;
+}
+
+.texto3 {
+
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+
+.texto4 {
+
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+.space {
+margin-top: 65px;
+}
+
+.pie {
+
+    background-color: rgb(59, 59, 59);
+}
+
+
+.pie2 {
+
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+h5 {
+    text-align: left;
+    color: white;
+}
+
+.texto6 {
+
+    text-align: left;
+   
+    font-weight: 200;
+    color: white;
+}
+
+hr.new3 {
+    border-top: 1px dotted white;
+  }
+
+
