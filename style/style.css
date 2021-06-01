@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    text-transform: uppercase;
+}
+
+nav ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding-left: 5px;
+}
+
+
+/* Section 2 - Presentation */
+.presentation-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+/* Section 3 Work */
+.row img{
+    width: 100%;
+}
+
+
+/* Section 4 Footer */
+.footer-section p{
+    border-bottom: 1px dotted black;
+}
+
+
+
+/* https://icomoon.io/ */
+
+.icon-heart:before {
+    content: "\e9da";
+  }
+
+
+.icon-star-full:before {
+content: "\e9d9";
+}
+
+.icon-display:before {
+    content: "\e956";
+  }
