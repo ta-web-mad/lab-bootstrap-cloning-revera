@@ -1,0 +1,147 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu li {
+    text-decoration: none;
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin: 10px 100px 30px 0px;
+    text-transform: uppercase;
+}
+
+.grey {
+    color: grey;
+}
+
+.home {
+    color: red;
+}
+
+.secondSection {
+    background-image: url(../img/slider-1-Black-White.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 150vh;
+    padding: 200px;
+}
+
+.secondSection h1 {
+    font-weight: 100;
+    padding: 0 100px;
+}
+
+.secondSection p {
+    padding: 0 50px;
+}
+
+.secondSection a {
+    color: white;
+    border: white solid 1px;
+    padding: 5px 20px;
+}
+
+.thirdSection {
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.thirdSection h3 {
+    margin: 10px 0;
+}
+
+.thirdSection p {
+    padding: 0 50px;
+}
+
+.icon {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.container {
+    margin: 50px;
+}
+
+.container img {
+    width: 200px;
+}
+
+.container h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.secondp {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: grey;
+}
+
+.firstp {
+    color: black;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.fourthSection {
+    background-color: #3b3b3b;
+    padding: 50px 100px;
+}
+
+.fourthSection h3 {
+    color: white;
+    padding: 20px 0;
+}
+
+.fourthSection p {
+    color: grey;
+    font-weight: 100;
+}
+
+.fourthSection a {
+    color: grey;
+}
+
+.fourthSection hr {
+    color: white;
+    border: grey dotted 1px;
+}
+
+.footer {
+    background-color: #292929;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    ;
+}
+
+.footer p {
+    color: white;
+}
