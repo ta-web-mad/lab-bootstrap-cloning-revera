@@ -2,7 +2,7 @@
 :root{
     --revera-pink: #ed564b;
     --revera-footer-light: #3b3b3b;
-    --revera-footer-dark: ##292929;
+    --revera-footer-dark: #292929;
 }
 
 
@@ -154,12 +154,14 @@ section.footer-section > div{
     color: white;
 }
 
-footer div{    
+footer {    
     background: var(--revera-footer-dark);
 }
 
-.footer-section p{
-    border-bottom: 1px dotted white;
+.footer-section p{  
+    margin: 0.5em auto;
+    width: 70%;
+    color: white;
 }
 
 
