@@ -1,0 +1,152 @@
+/* general */
+.textRed {
+    color: tomato !important;
+}
+
+.textWhite {
+    color: white !important;
+}
+
+.textUpp {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 20px 0px;
+}
+
+nav {
+    width: 600px;
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+  
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.navBar {
+    padding: 30px;
+}
+
+.navBar ul {
+    margin-bottom: 0px;
+}
+
+.navBar li {
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.displayFlex {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    left: 15%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+
+h4 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* body */
+.icon-quill:before {
+    font-size: 50px;
+    border: 4px white solid;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.icon-quill {
+    margin-bottom: 20px;
+}
+
+.landingPage {
+    background-image: url("../lab-bootstrap-cloning-revera/img/slider-1.jpg") ;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    color: wheat !important;
+}
+
+.landingPage article, .landingPage h2, .landingPage p {
+    text-align: center;
+    padding: 10px;
+}
+
+.landingText {
+    width: 60%;
+    margin: auto;
+}
+
+.buttonLanding {
+    border: wheat 1px solid;
+    width: 20%;
+    margin: auto;
+}
+
+.underLandingPage {
+    background-color: tomato;
+}
+
+.underLandingPage article, .underLandingPage h3 {
+    text-align: center;
+}
+
+.bodyContent img{
+    height: 0px;
+}
+
+.columnHomepage img {
+    width: 100%;
+}
+
+.postInfo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.columnSection {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background-color: #3b3b3b;
+    color: white;
+    border-top: tomato 5px solid;
+}
+
+.footerCopy {
+    background-color: #292929;
+}
+
+.borderDots a {
+    border-bottom: grey dotted 1px;
+    list-style: none;
+    color: grey;
+}
