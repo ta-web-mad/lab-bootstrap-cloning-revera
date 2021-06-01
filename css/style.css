@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+header div p{
+    justify-content: start;
+}
+header div p{
+    font-weight: bold;
+    font-size: 30 px;
+}
+
+.header{
+    justify-content: space-around;
+}
+.header-red{
+    color: #ed564b;
+}
+
+.section-1{
+    justify-content: center;
+
+}
+.section-1-picture{
+    background-image: url(../img/slider-1.jpg);
+    background-repeat: repeat-x;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 60px;
+    
+
+}
+.section-1-column{
+    display: flex;
+    color: white;
+    background-color: #ed564b;
+    padding: 30px;
+    text-align: center;
+
+    
+}
+.section-1 h3{
+    font-weight: bold;
+    text-align: center;
+
+}
+.section-1-column p{
+    width: 80%;
+    text-align: center;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2-title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+}
+.section-2 h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-2-title p{
+    color: gray;
+    text-transform: uppercase;
+}
+
+.colunm-picture{
+    width: 300px;
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+}
