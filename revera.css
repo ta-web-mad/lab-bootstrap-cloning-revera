@@ -1,0 +1,46 @@
+
+.row {
+    margin: 10px 0;
+}
+.navPart{
+    background-color: white;
+    height: 100px;
+    padding: 100px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.container{
+    background-size: contain;
+    
+ }
+ .part1{
+    padding-left: 50px;
+    background-image: url(img/project-2.jpg);
+    background-size: contain;
+    background-color: black;
+    color: white;
+
+ }
+ .part2{
+     background-color: red;
+     color: white;
+ }
+ .part4{
+     background-color: rgb(70, 66, 66);
+     color: white;
+ }
+ img{
+     height:100px;
+
+ }
+ .icono {
+     height: 50px;
+   
+ }
+ li{
+     list-style: none;
+     color: black;
+}
