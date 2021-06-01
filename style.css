@@ -1,0 +1,124 @@
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-container {
+    padding: 20px;
+}
+
+nav > a {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: grey;
+    margin: 5px;
+}
+
+#home-btn {
+    color: #ed564b;
+}
+
+.background {
+    background-image: url(/Users/peybolico/Desktop/Coding/IronHack/labs/week1/lab-bootstrap-cloning-revera/img/slider-1.jpg);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 100px 50px 50px 50px;
+    filter: grayscale(100%);
+}
+
+.main-text {
+    text-align: center;
+    width: 40%;
+    font-size: 0.7em;
+}
+
+.background article {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.features {
+    padding: 50px;
+    color: white;
+    background-color: #ed564b;
+}
+
+.features p {
+    font-size: 0.8em;
+}
+
+.distribution {
+    text-align: center;
+}
+
+.photos {
+    padding: 100px 0;
+}
+
+.photos img {
+    width: 270px;
+    height: 180px;
+}
+
+.photos a {
+    color: black;
+    text-align: center;
+}
+
+.photos h3 {
+    font-size: 1.3em;
+}
+
+.photos h5 {
+    font-size: 0.8em;
+}
+
+.photos img {
+    margin-bottom: 10px;
+}
+
+.photos h4, h5 {
+    margin-bottom: 10px;
+}
+
+footer {
+    color: white;
+    background-color: #404040;
+    font-size: 0.8em;
+    padding: 50px;
+}
+
+footer h3 {
+    font-size: 1.1em;
+}
+
+.date {
+   color: #ed564b;
+}
