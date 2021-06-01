@@ -1,0 +1,57 @@
+
+ul {
+  list-style-type: none;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin: 0%;
+  float:right;
+}
+
+li {
+  float: left;
+  margin: 0%;
+}
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  margin: 0%;
+}
+
+
+.sect1{
+  background-image: url("https://github.com/ta-web-mad/lab-bootstrap-cloning-revera/blob/master/img/slider-3.jpg?raw=true");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+.sect2 {
+  background: #ed564b; 
+  margin: 0;
+  padding: 40px 40px;
+}
+
+.p1{
+  color:white;
+}
+
+img {
+  width: 200px;
+}
+
+.gray {
+  background: #606060;
+}
+.darkgray {
+  background: #333;
+}
+
