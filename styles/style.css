@@ -1,15 +1,18 @@
 :root{
---color-red: hsl(4deg 82% 61%);
+--color-red: hsl(4deg, 82%, 61%);
+--color-grey: rgb(175, 145, 145);
+--color-dark-grey:hsl(0, 0%, 16%);
+--color-titula:#3b3b3b;
+--color-footer: #292929;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+   
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image: url(../img/overlay.png);
+    background-image: ;
     background-size: cover;
 }
 .nav-bar{
@@ -34,24 +37,32 @@ body{
 .nav-bar li{
     padding: 10px;
 }
-.nav-links a{
+a{
     text-decoration: none;
-    color: rgb(175, 145, 145);
+    color:var(--color-grey);
     text-shadow: 0px 1px 2px black;
 }
-.nav-links a:hover{
-   color: #2a2a2a;
+a:hover{
+    text-decoration: none;
+   color: var(--color-dark-grey);
    text-shadow: 0px 1px 2px rgb(77, 71, 71);
+}
+.overlay{
+    z-index: 1;
+    background-image: url(../img/overlay.png);
+    opacity: 0.6;
 }
 .slide a:hover{
     background-color: var(--color-red);
 
 }
-h3{
+.slide h3{
     font-size: 2em;
+    color: var(--color-grey);
+    text-shadow: 0px 2px 4px black;
 }
-h3, p{
-    color: rgb(175, 145, 145);
+h6,h2, h4, p{
+    color: var(--color-grey);
     text-shadow: 0px 1px 2px black;
 }
 .adv{
@@ -63,13 +74,35 @@ h3, p{
 }
 .icon-glass2:before {
     content: "\e9a1";
+    color: var(--color-grey);
+    text-shadow: 0px 1px 2px var(--color-dark-grey);
   }
 .icon-library:before {
     content: "\e921";
+color: var(--color-grey);
+text-shadow: 0px 1px 2px var(--color-dark-grey);
   }
 .icon-bug:before {
     content: "\e999";
+    color: var(--color-grey);
+    text-shadow: 0px 1px 2px var(--color-dark-grey);
   }
+  .border-top{
+    border-bottom: 1px solid var(--color-red);
+    }
   .cards img{
       width: 100%;
   }
+   hr{
+      border-top: 1px solid var(--color-red);
+  }
+  .titula{
+      border-top: 3px solid var(--color-red);
+      background-color: var(--color-titula);
+      font-size: 0.6em;
+  }
+  
+  footer{
+      background-color: var(--color-footer);
+        }
+  
