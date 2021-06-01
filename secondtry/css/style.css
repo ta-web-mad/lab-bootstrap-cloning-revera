@@ -1,0 +1,91 @@
+body{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding-right: 40px;
+    padding-top: 65px;
+}
+
+a{
+    text-decoration: none;
+    color: #777;
+}
+footer{
+    background-color: #3b3b3b;
+    border-top: 3px solid #ed564b;
+}
+a:hover{
+    text-decoration: none;
+    color: #ed564b;
+}
+.a-red{
+    color: #ed564b;
+}
+
+.logo-menu{
+    text-transform: uppercase;
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+header{
+    padding: 100px; 
+    width: 100%;
+    height: 50vh;
+    color: white;
+    
+}
+h5{
+    color: white;
+}
+.hero{
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+}
+.heroi{
+    text-align: center;
+}
+.texto1{
+    font-size: 16px;
+}
+.container-bg{
+    background-color: tomato;
+
+}
+.container-bg{
+    
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+    font-size: 15px;
+    
+}
+.upper{
+    text-transform: uppercase;
+    
+}
+.left-just{
+    border-bottom: 3px solid #777;
+    
+}
+.darkbg{
+    background-color: #eee;
+}
+.RT{
+    color: white;
+}
+.borderbott{
+    border-bottom-style: dotted;
+}
