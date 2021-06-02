@@ -1,0 +1,25 @@
+body {
+    padding: 50px;
+}
+
+.nav-class {
+    background: yellow;
+}
+
+/*
+para poner en horinzotal el padre debe ser flex
+*/
+ul {
+    display: flex;
+}
+/*
+link del cdn en html
+row y columns
+*/
+
+/*
+    background-size: cover
+    list-style-decoration: none
+    padding: 50px;
+
+*/
