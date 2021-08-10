@@ -1,0 +1,118 @@
+img {
+  width: 250px;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: #404040;
+  font-size: 32px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header ul li {
+  margin-left: 20px;
+  list-style: none;
+  white-space: nowrap;
+}
+
+nav a {
+  color: #404040;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #ed564b;
+  text-decoration: none;
+}
+
+.overlay {
+  background-image: url('./img/overlay.png');
+  background-repeat: repeat;
+}
+
+.carrusel {
+  background-image: url('./img/slider-1.jpg');
+  filter: grayscale(100%);
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carrusel h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.carrusel p {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 16px;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.widgets {
+  background-color: #ed564b;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.line {
+  border-style: solid;
+  border-color: #aaaaaa;
+  border-width: 1px 0px 0px 0px;
+}
