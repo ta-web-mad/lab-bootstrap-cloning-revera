@@ -1,0 +1,160 @@
+header{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 700px;
+}
+.brand{
+    font-size: 32px;
+    font-family:Helvetica, sans-serif;
+}
+li {
+    display:inline;
+    padding:5px;
+    color: #777777;
+}
+span{
+    color:red;
+}
+.fondo{
+    background-image: url("../img/slider-1.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale();
+}
+.encabezado{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family:Helvetica, sans-serif;
+    padding-top: 300px;
+    padding:0, 100px;
+}
+.para1{
+    color: white;
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    
+
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    padding:4px;
+    font-size: 40px;
+
+  }
+
+  .row{
+ 
+      text-align: center;
+      color:white;
+      padding:30px;
+  }
+
+.rojo{
+    background-color:#ed564b
+}
+.encabezado2{
+    padding-top:30px;
+}
+.projects{
+    margin-left: 153px;
+    margin-right: 153px;
+    padding-top: 50px;
+}
+.latest{
+    color: black;
+    font-family:Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+  
+}
+.platest{
+    color:#AAAAAA;
+    font-family:Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.aux{
+    padding-top: 10px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    
+}
+.col-3 > img{
+    
+    width: 270px;
+    height: 180px;
+    
+    
+}
+hr{
+    background-color: #AAAAAA;
+    margin-left: 153px;
+    margin-right: 153px;
+
+}
+.foot{
+    text-align: left;
+    color:black;
+    
+
+
+}
+.date{
+    text-align: left;
+    color:#AAAAAA;
+    font-size: 12px;
+
+}
+.text{
+    text-align: left;
+    color: #AAAAAA;
+    font-size: 12px;
+
+}
+.gris{
+    background-color: #606060;
+    margin:auto;
+    width: 100%;
+}
+footer{
+    background-color: #606060;
+   
+}
+h4{
+    font-size:16px;
+    text-align: left;
+}
+.parrafo-footer{
+    font-size :10px;
+    color:#AAAAAA;
+    text-align: left;
+
+}
+.gris-oscuro{
+    background-color: #EEEEEE;
+}
