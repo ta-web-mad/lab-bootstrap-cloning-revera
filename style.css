@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+}
+.menu{
+    display: flex;
+}
+
+.principal{
+    background-image: url(img/slider-1.jpg);
+    filter: grayscale(100%);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 500px;
+}
+
+.title{
+    margin-top: 5%;
+}
+
+.title-2{
+    margin: 10%;
+}
+
+.description{
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding: 15px;
+}
+
+.icon{
+    border-radius: 50%;
+    color: white;
+    border-style: solid;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.projects{
+    padding-top: 10%;
+
+}
+.img{
+    width: 160px;
+}
+
+.articles{
+    padding-top: 10%;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.footer-1{
+    padding: 15px;
+    background-color: darkgrey;
+}
+.foot{
+    padding: 20px;
+}
+
+.footer-2{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
