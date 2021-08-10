@@ -1,0 +1,61 @@
+.cabecera {
+    padding: 0 25px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: end;
+    padding: 2%;
+}
+.imagen{
+    position: relative;
+    font-size: 50px;
+    
+}
+
+.texto {
+    position:absolute;
+    top: 150px;
+    color: white;
+    opacity: .5;
+    text-align: center;
+    justify-content: center;
+    margin: 400px;
+    margin-top: 0%;
+    font-size: 30px;
+    font-size: 20px;
+}
+
+.boton {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.segunda {
+    background-color: tomato;
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+
+.tercera {
+    padding: 5%;
+    justify-items: center;
+}
+
+.col-sm-3 {
+    padding: 5%;
+}
+
+.cuarta {
+    background-color: grey;
+    color: white;
+}
+
+.icon {
+    width:100px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
