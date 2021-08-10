@@ -1,0 +1,166 @@
+:root {
+  --red: #ed564c;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navbar_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar_logo {
+  margin-top: 20px;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navbar_text {
+  margin-top: 35px;
+  text-align: center;
+}
+.navbar_text li {
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+  color: grey;
+}
+
+#red_option {
+  color: var(--red);
+}
+
+/*********** CAROUSEL CSS **************/
+
+.carousel_container {
+  background-image: url("img/slider-1.jpg");
+  width: 100%;
+}
+
+.carousel_container img {
+  width: 100%;
+}
+
+/************ SKILLS CONTAINER ************/
+
+.skills_container {
+  background-color: var(--red);
+  padding-top: 50px;
+  text-align: center;
+}
+
+.skills_image img {
+  width: 5%;
+}
+
+.skills_text_container {
+  background-color: var(--red);
+  text-align: center;
+  padding: 25px 0px 50px;
+  color: white;
+}
+
+/********* PROJECTS SECTION ***********/
+
+.container {
+  margin-top: 50px;
+}
+.project_title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.project_subtitle {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.project_images p {
+  margin-top: 15px;
+}
+
+.project_images img {
+  width: 100%;
+}
+
+.row_images {
+  align-content: center;
+}
+
+/*********ARTICLES SECTION**************/
+
+.articles_container {
+  text-align: center;
+}
+
+#articles_title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#articles_subtitle {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.article_images p {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.posted_on {
+  text-transform: uppercase;
+  color: grey;
+}
+
+.article_images img {
+  width: 100%;
+}
+
+.article_images h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.row_article {
+  align-content: center;
+}
+
+.red_text {
+  color: var(--red);
+}
+
+.posted_on {
+  font-weight: bold;
+}
+
+/*********** INFO SECTION ****************/
+
+.container_color {
+  background-color: #3b3b3b;
+  border-top: 5px solid var(--red);
+  color: grey;
+}
+
+.info_text {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/***********FOOTER **************/
+
+.footer_container {
+  background-color: #292929;
+}
+.footer_container p {
+  font-size: 12px;
+  padding: 20px 0px 10px;
+  margin-left: 15%;
+  color: white;
+}
