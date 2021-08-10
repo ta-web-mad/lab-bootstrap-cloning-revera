@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/d5340e6445/UntitledProject/style-svg.css">
+    <script defer src="https://i.icomoon.io/public/temp/d5340e6445/UntitledProject/svgxuse.js"></script>
+</head>
+
+<body>
+    <div id="container" class="container-fluid">
+
+        <div class="row ">
+            <div class="col">
+                <div class="row" id="header">
+                    <a id="logo-brand" href="">Revera</a>
+                    <nav class="navbar navbar-expand-lg navbar-light justify-content-center bg-white">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active-red" href="#">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sample page</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Parent page
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Full page</a>
+                                        <a class="dropdown-item" href="#">Child page 1</a>
+                                        <a class="dropdown-item" href="#">Child page 2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="container-carousel" class="col">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/slider-1.jpg" alt="First slide">
+                            <div id="carousel-caption" class="carousel-caption d-none d-md-block">
+                                <h3>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h3>
+                                <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum.
+                                    Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id
+                                    nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis
+                                    erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac
+                                    id diam. Morbi accumsan est vitae tellus vulputate</p>
+                                <button id="carousel-button">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <a id="button-prev" class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a id="button-next" class="carousel-control-next" href="#carouselExampleControls" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- section sevices -->
+
+        <div id="container-services" class="row">
+            <div id="container-services" class="col">
+                <i src="#">
+                    <svg class="icon icon-glass2">
+                        <use xlink:href="#icon-glass2"></use>
+                    </svg>
+                </i>
+                <h3>Web design</h3>
+                <article>
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                    vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius
+                </article>
+            </div>
+            <div class="col">
+                <i src="#">
+                    <svg class="icon icon-star-full">
+                        <use xlink:href="#icon-star-full"></use>
+                    </svg>
+                </i>
+                <h3>Web development</h3>
+                <article>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                    metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at
+                    erat luctus.</article>
+            </div>
+            <div class="col">
+                <i src="#">
+                    <svg class="icon icon-heart">
+                        <use xlink:href="#icon-heart"></use>
+                    </svg>
+                </i>
+                <h3>User interface</h3>
+                <article>
+                    Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie.
+                    Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.
+                </article>
+            </div>
+
+
+        </div>
+        <!-- section-galery -->
+        <div class="section-galery container">
+            <div class="row">
+                <div class="container-text-galery container">
+                    <h2>Last Proyects</h2>
+                    <h3>Few of the lastest portfolio items</h3>
+                </div>
+            </div>
+            <div class="container-image-galery" class="row">
+                <div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/project-1.jpg" alt="Card image cap">
+                        <p class="card-text">Nunc libero elit, iaculis nec augue non
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./img/project-2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Phasellus aliquet iaculis neque accumsan aliqua
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./img/project-3.jpg" alt="Card image cap">
+                        <p class="card-text">
+                            Vivamus blandit ipsum sed arcu euismod.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./img/project-4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">.
+                                Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- fin section-galery -->
+        <!-- section-galery -->
+        <div class="section-galery container">
+            <div class="row">
+                <div class="container-text-galery container">
+                    <h2>Last Articles</h2>
+                    <h3>Few post from the blog</h3>
+                </div>
+            </div>
+            <div class="container-image-galery align-right" class="row">
+                <div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/slider-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>Festibulum purus odio, ornare non posuere.</h5>
+                            <h5 class="letter-light">posted on august Agust 19, 2013 by Adm. </h5>
+                            <p class="card-text">
+                                Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis
+                                porttitor
+                                sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum
+                                nec.
+                                Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim
+                                suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend.
+                                Suspendisse
+                                et libero nunc. Etiam mauris tortor, pharetra
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./img/slider-2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>Festibulum purus odio, ornare non posuere.</h5>
+                            <h5 class="letter-light">posted on august Agust 19, 2013 by Adm. </h5>
+                            <p class="card-text">
+                                Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem
+                                in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit
+                                hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis
+                                porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat.
+                                Maecenas fermentum bibendum
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./img/slider-3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>Festibulum purus odio, ornare non posuere.</h5>
+                            <h5 class="letter-light">posted on august Agust 19, 2013 by Adm. </h5>
+                            <p class="card-text">
+                                Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra,
+                                lorem
+                                est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet
+                                tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris
+                                vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo.
+                                Proin
+                                blandit id tellus non pellentesque. Mauris
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./img/slider-4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>Festibulum purus odio, ornare non posuere.</h5>
+                            <h5 class="letter-light">posted on august Agust 19, 2013 by Adm. </h5>
+                            <p class="card-text">.
+                                Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque
+                                vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad
+                                litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla
+                                egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel
+                                pellentesque dictum, ligula
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- fin section-galery -->
+        <!-- footer -->
+        <!-- Footer -->
+        <footer class="text-left text-lg-start  bg-grey text-muted">
+            <!-- Section: Social media -->
+            <!-- <section class="d-flex justify-content-center  text-white justify-content-lg-between p-4 ">
+                    <div>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </section> -->
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="text-white">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 text-left col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4 text-white">
+                                <i class="fas fa-gem me-3"></i>Company name
+                            </h6>
+                            <p class="text-white">
+                                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 text-white col-lg-2 text-left col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold text-white mb-4">
+                                META
+                            </h6>
+                            <p class="border-bottom">
+                                <a href="#!" class="text-reset text-white">Log in </a>
+                            </p>
+                            <p class="border-bottom">
+                                <a href="#!" class="text-reset text-white">Entries RSS</a>
+                            </p>
+                            <p class="border-bottom">
+                                <a href="#!" class="text-reset text-white">Comments RSS</a>
+                            </p>
+                            <p class="border-bottom">
+                                <a href="#!" class="text-reset text-white">Wordpress.org</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 text-left col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase text-white fw-bold mb-4">
+                                ARCHIVES
+                            </h6>
+                            <p class="border-bottom">
+                                <a href="#!" class="text-reset text-white">August 2013</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 text-left mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase text-white fw-bold mb-4">
+                                RESENT POSTS
+                            </h6>
+                            <p class="border-bottom">
+                                <i class="fas fa-home me-3"></i>
+                                Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+
+                            </p>
+                            <p class="border-bottom">
+                                <i class="fas fa-envelope me-3"></i>
+                                Nunc libero elit, iaculis nec augue non
+
+                            </p>
+                            <p class="border-bottom">
+                                <i class="fas fa-phone me-3"></i>
+
+                                Falauris sollicitudin quis dolor venenatis facilisis
+
+                            </p>
+                            <p class="border-bottom">
+                                <i class="fas fa-print me-3"></i>
+                                Phasellus aliquet iaculis neque accumsan aliquam
+                                Vivamus blandit ipsum sed arcu euismod
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-left p-4 " style="background-color: rgb(0, 0, 0 );">
+                <p id="text-bottom-footer" class="text-white ml-4">
+                    © 2018 Copyright reserva - Just another demo Sites site.<br>
+                    <a class="text-reset fw-bold  text-white" href="https://mdbootstrap.com/">| Revera theme</a>
+                </p>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+</body>
+
+</html>

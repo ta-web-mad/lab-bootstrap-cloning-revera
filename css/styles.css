@@ -1,0 +1,150 @@
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+}
+#logo-brand {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 900;
+    
+}
+#logo-brand ul {
+    margin-left: 2rem;
+}
+#header .active-red{
+    color: red;
+}
+
+/* carousel */
+
+
+#container-carousel {
+    filter: grayscale(100%);
+}
+#container-carousel {
+    margin-top: 2rem;
+    padding:  0;
+}
+#carousel-caption {
+    margin-bottom: 4rem;
+    text-align: center;
+
+}
+#carousel-caption  h3 {
+    text-transform: uppercase;
+    font-size: 2.7rem;
+}
+#carousel-button  {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid white;
+    padding: 2px 20px 2px 20px;
+}
+
+/* services */
+#container-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ed564b;
+    padding: 0 5em 0 5em;
+}
+
+#container-services div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 3rem;
+    color: white;
+}
+#container-services article {
+    font-size: 14px;
+}
+#container-services svg {
+    width: 50px;
+    height: 50px ;
+    padding: 10px;
+    border-radius: 55%;
+    border: 4px solid white;
+}
+
+.container-image-galery {
+
+}
+.container-image-galery div div{
+    border: 0;
+    margin: 0 1rem 0 1rem;
+    padding: 0;
+
+}
+.container-image-galery p{
+    font-size: 14px;
+}
+.container-text-galery {
+    padding: 0 1rem 0 1rem;
+    width: 95%;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    border-bottom: .2px solid grey;
+    text-transform: uppercase;
+}
+.container-text-galery h2 {
+    font-size: 1.6rem;
+}
+.container-text-galery .card-body {
+    border: 1px solid green;
+}
+.container-text-galery h3 {
+    font-size: 1rem;
+    font-weight: 40;
+
+}
+.container-image-galery p{
+    border: 0;
+    text-align: center;
+    font-weight: 40;
+    padding: 0;
+}
+
+h5{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 1rem 0 1rem 0;
+    padding: 0;
+}
+.align-right {
+    text-align: left;
+}
+.letter-light {
+    font-size: 12px;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+}
+footer{
+    border-top: 2px solid red;
+    margin-top: 4rem;
+    color: white;
+    background-color: #3b3b3b;
+}
+footer a {
+    width: 100%;
+    color: grey;
+    text-align: center;
+}
+#text-bottom-footer {
+    padding-left: 6rem;
+}
