@@ -1,0 +1,148 @@
+:root {
+    --lightgrey: #777777;
+    --darkgrey: #3b3b3b;
+    --darkergrey: #292929;
+    --red: #ed564b;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+hr {
+    color: var(--lightgrey);
+}
+/*-------------------- HEADER SECTION --------------------*/
+
+.header {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 8rem 50rem 2rem 25rem;
+}
+
+.logo__text {
+    font-size: 4rem;
+}
+
+.menu__list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu__links {
+    color: var(--lightgrey);
+    text-decoration: none;
+}
+
+.menu__links:hover {
+    color: var(--red);
+}
+
+.menu__links:active {
+    color: var(--red);
+}
+
+/*-------------------- SERVICES SECTION --------------------*/
+.fas {
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services__background {
+    background-color: var(--red);
+}
+
+.services__section {
+    padding: 5rem 0;
+    margin-bottom: 5rem;
+}
+
+.services {
+    color: white;
+    text-align: center;
+}
+
+/*-------------------- PROJECTS SECTION --------------------*/
+.projects__section {
+    margin-bottom: 8rem;
+}
+
+.projects__subtitle {
+    color: var(--lightgrey);
+    margin-bottom: 3rem;
+}
+
+.projects__grid {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.projects__img {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.projects__text {
+    font-size: 1.5rem;
+}
+
+/*-------------------- ARTICLES SECTION --------------------*/
+.articles__subtitle {
+    color: var(--lightgrey);
+    margin-bottom: 3rem;
+}
+
+.articles__grid {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.articles__img {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.articles__post {
+    font-size: 1.5rem;
+}
+
+/*-------------------- FOOTER SECTION --------------------*/
+.footer__background {
+    background-color: var(--darkgrey);
+    border-top: 5px solid var(--red);
+    padding-top: 5rem;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.footer__title {
+    color: white;
+}
+
+.footer__text {
+    color: var(--lightgrey);
+}
+
+.copyright__background {
+    background-color: var(--darkergrey);
+    color: white;
+    font-size: 1.3rem;
+    padding: 3rem 0 2rem;
+}
+
+.meta__links {
+    color: var(--lightgrey);
+}
