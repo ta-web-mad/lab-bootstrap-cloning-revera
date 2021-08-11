@@ -1,0 +1,213 @@
+body{
+    font-family: sans-serif;
+}
+
+nav ul li{    
+    list-style: none;
+    display: inline;
+}
+
+.sectiom-1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu > h1{
+    width: 30%;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.list{
+    width: 70%;
+    justify-content: end;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+.list > li{
+    margin-left: 20px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #777;
+;
+}
+
+.home{
+    color: coral;
+    text-decoration: none;
+}
+
+.description{
+    text-align: center;
+    background-image: url(img/slider-1.jpg);
+    filter: grayscale(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+}
+
+.title{
+    color: white;
+}
+
+.title > h1{
+    padding-top: 180px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.title > p{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.button{
+    background-image: url(img/overlay.png);
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border: white;
+    border-style: solid;
+    margin: auto;
+    color: white;
+}
+
+.services{
+    background-color: tomato;
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+
+.icon{
+    font-size: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    padding: 10px;
+}
+
+.projects{
+    padding-top: 60px;
+}
+
+.projects >h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.projects > h3{
+    font-weight: bold;
+    font-size: 15px;
+    color: lightgrey;
+    margin: 0px;
+
+}
+
+.img{
+    width: 180px;
+    justify-content: space-between;
+
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.articles{
+    padding-top: 60px;
+}
+
+.articles >h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.articles > h3{
+    font-weight: bold;
+    font-size: 15px;
+    color: lightgrey;
+    margin: 0px;
+}
+
+.short{
+    font-size: 15px;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.paragraph-2 > h3{
+    font-size: 20px;
+}
+
+.paragraph-2 > h4{
+    font-size: 15px;
+}
+
+.paragraph-2 > p{
+    font-size: 10px;
+}
+
+.post{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author{
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+
+.footer-1{
+    background-color: #3b3b3b;
+    padding: 5%;
+    text-align: center;
+    text-align: left;
+    color: #aaa;
+    border-top: 5px solid;
+    border-color: #ed564b;
+}
+
+.post-2{
+    color: white;
+    font-size: 20px;
+}
+
+.listFoot{
+    list-style-type: none;
+    padding: 0px;
+    font-size: 10px;
+}
+
+.listFoot > li{
+    color: #aaa;
+    font-size: 10px;
+}
+
+.last{
+    color: #aaa;
+    font-size: 15px;
+}
+
+.copy{
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+footer{
+     background-color: #292929;
+}
