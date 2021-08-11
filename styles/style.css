@@ -1,7 +1,4 @@
 header{
-    /* background-color: red; */
-    /* display: flex; 
-    justify-content: space-around; */
     height: auto;
 }
 
@@ -12,8 +9,14 @@ header{
     
 }
 
+.list a {
+    font-size: 14px;
+    font-family: "Oxygen", sans-serif;
+}
+
 .brand-name {
-    font-size: 2em;
+    font-size: 32px;
+    font-family: 'Helvetica Neue', Helvetica, arial;
 }
 
 .bw-image {
@@ -43,22 +46,24 @@ header{
     right: 0;
     bottom: 0;
     margin: auto;
+    margin-top: 8rem;
 
 }
 
 
 
-.container-fluid {
+.div-third-section {
     text-align: center;
     justify-content: center;
     align-items: center;
     align-content: center;
     align-items: center;
     color: white;
-    font-size: x-small;
-    margin-top: 500px;
+    font-size: x-small;  
+    padding-left: 16rem; 
+    padding-right: 16rem;
+    padding-bottom: 2rem;
 
-       
 }
 
 .container-fluid h2 {
@@ -79,9 +84,7 @@ header{
   
 }
 
-.row {
-    height: 250px;
-}
+
 
 .read {
     border: 2px solid white;
@@ -96,14 +99,109 @@ header{
     border: 5px solid beige
 }
 
-.mx-2{
-    margin-left: ($spacer * .5) !important;
-    margin-right: ($spacer * .5) !important;
-}
-/* .px-2 {
-  padding-left: (spacer * .5) !important;
-  padding-right: ($spacer * .5) !important;
 
-.p-3 {
-  padding: spacer !important;
-} */
+ 
+hr{
+    height: 2px !important;
+} 
+
+.grid img {
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.grid-two {
+    height: 100px;
+    margin-top: 2.7em;
+}
+
+.grid-two h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projects{
+    text-align: center;
+    font-size: smaller;
+    margin-top: 1em;
+}
+
+.grid a {
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial,;
+}
+
+.grid p{
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial,";
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.grid-articles img{
+    margin-bottom: 1.5em;
+}
+
+.grid-articles h4{
+    font-size: 12px;
+    margin-top: 1em;
+}
+
+.grid-articles h4 a{
+    font-size: 12px;
+}
+
+
+
+.title-first {
+    font-size: 24px !important;
+    
+}
+
+.text-first {
+    font-size: 16px ;
+
+}
+
+.red-hr{
+    height: 4px !important;
+    
+}
+
+.dashed {
+    border-bottom: dashed 1px rgb(197, 197, 197);
+}
+
+.recent a{
+    text-decoration: none;
+}
+
+.recent a:hover{
+    color: white !important;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.btop {
+    border-top: 5px solid red;
+    padding-top: 40px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
