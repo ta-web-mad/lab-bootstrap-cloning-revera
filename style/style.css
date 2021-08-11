@@ -1,0 +1,204 @@
+/*-- GENERAL--*/
+body { 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*-- NAV BAR --*/
+
+ h1 {
+    font-weight: 800;
+    font-size: 32px;
+    text-align: end;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 40px 40px 40px;
+    align-items: baseline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #777777;
+    padding: 19px 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+/*-- CARRUSEL --*/
+
+.carrusel {
+    background-image: url("../img/overlay.png"), url("../img/slider-1.jpg");
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    filter: grayscale(100%);
+    /*filter:url("../img/overlay.png");*/
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/*-- RED --*/
+
+.red {
+    background-color: #ED564D;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 40px 0px;
+    color: white;
+}
+
+.red p {
+    font-size: small;
+}
+
+.red h2 {
+    font-weight: bold;
+}
+
+.icon-glass2 {
+    border:2px solid white;
+    width: 7em;
+    height: 7em;
+}
+
+/*-- GALERIA --*/
+
+.gal {
+    margin: 70px 135px 0 135px;
+}
+
+.latest {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #777777;
+}
+
+.galeria {
+    display:flex;
+    padding: 0%;
+}
+
+.galeria div{
+    width: 270px;
+    margin: 15px;
+}
+
+.galeria img {
+    height: 180px;
+    width: 270px;
+}
+
+.galeria-1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0%;
+}
+
+.galeria h5 {
+    text-align: left;
+    font-size: 16px;
+}
+
+.galeria-2 {
+    text-align: left;
+    font-size: 14px;
+}
+
+.date {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: #777777;
+}
+
+.red-date {
+    text-decoration: none;
+    color: red;
+}
+
+.date span {
+    color: red;
+}
+
+/*-- FOOTER --*/
+
+footer {
+    background-color: #3b3b3b;
+    color: #AAAAAA;
+    
+    border-top: 5px solid #ED564D;
+    padding: 20px 0px 40px 0px;
+}
+
+.foot {
+    display: flex;
+    margin: 0px 135px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 16px;
+    margin: 20px 0 10px;
+}
+
+
+}
+
+.encuadre {
+    width: 270px;
+    margin: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 15px 0x;
+}
+
+.line {
+    border-bottom: 1px solid #AAAAAA;
+}
+
+/*-- COPYRIGHT--*/
+.copy {
+    background-color: #292929;
+    color: #EEEEEE;
+}
+
+.copy p {
+    margin: 0px 135px;
+    padding: 20px 0px;
+}
+
