@@ -1,0 +1,263 @@
+img{
+    width: 100%;
+}
+
+
+/*MENU*/
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu img {
+    width: 150px;
+    margin-right: 50px;
+}
+
+.menu nav {
+    align-items: center;
+}
+
+.menu nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.menu nav li {
+    margin: 15px;
+    text-decoration: none;   
+}
+
+.menu nav li a{
+    text-decoration: none;
+    font-size: 0.9em;
+   
+    
+}
+
+/*HERO*/
+
+.hero {
+    text-align: center;
+    padding: 150px 0 100px 0;
+    background-color: rgb(68, 57, 57);
+}
+
+.hero h2 {
+    padding: 0 180px;
+    text-transform: uppercase;
+    font-size: 2.4em;
+    color: rgba(255, 255, 255, 0.603);
+    
+}
+
+.hero p {
+  padding: 10px 170px; 
+  color: rgba(255, 255, 255, 0.603); 
+  font-size: 0.9em;
+}
+
+.hero a {
+    color: rgba(255, 255, 255, 0.603);;
+    border: rgba(255, 255, 255, 0.603) 1px solid;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+/*SECCION 1*/
+
+.section-color-red {
+    background-color: tomato;
+}
+
+.section-color-red article {
+    padding: 40px;
+    
+    
+}
+
+.section-color-red img {
+    width: 53px;
+    padding: 15px;
+    border: 2px white solid;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+}
+
+.section-color-red h3 {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-color-red p {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/*SECCION 2*/
+
+.seccion-2-style h2{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.seccion-2-style h3{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.seccion-2-style p {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.seccion-2-style {
+    margin:40px 30px 0 30px;
+}
+
+
+/*SECCION 3*/
+
+.seccion-3-style h2{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.seccion-3-style h3{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.seccion-3-style p {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.seccion-3-style {
+    margin:40px 30px 0 30px;
+}
+
+/*SECCION 4*/
+
+.section-4-styles{
+    padding: 50px 30px 20px 30px;
+}
+
+.section-4-styles article{    
+margin: 0 5px;
+}
+.section-4-styles h3{    
+margin-bottom: 25px;
+}
+
+.section-4-styles hr{    
+margin: 2px;
+}
+
+.section-4-styles ul{    
+padding: 0px;
+}
+
+.section-4-styles p{    
+font-size: 0.8em;
+margin: 0px;
+}
+
+.section-4-styles a{    
+font-size: 0.8em;
+}
+
+.style-four{
+    padding-top: 20px;
+}
+
+.seccion-four-style {
+  background-color: #3d3c3c;  
+}
+
+.seccion-four-style h3 {
+    color: white;
+    font-size: 0.9em;
+}
+
+.seccion-four-style p {
+    color: white;
+    font-size: 0.8em;
+}
+
+.seccion-four-style hr {
+    color: white;
+    height: 1px;
+    border: 1px dashed;
+}
+
+.seccion-four-style ul li{
+    list-style-type: none;
+}
+
+.seccion-four-style ul li a{
+    color: white;
+    text-decoration: none;
+}
+   
+
+/*FOOTER*/
+
+.footer-style {
+    background-color: #222121;
+    padding: 20px 0;
+}
+
+.footer-style p {
+    color: white;
+    font-size: 0.7em;
+    margin: 0 30px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+.hero h2 {
+    padding: 0 90px;
+    
+    font-size: 1.7em;
+    
+    
+}
+
+.hero p {
+  padding: 10px 80px; 
+  font-size: 0.7em;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+.hero h2 {
+    padding: 0 45px;
+    
+    font-size: 1.2em;
+    
+    
+}
+
+.hero p {
+  padding: 10px 40px; 
+  font-size: 0.7em;
+}
+}
