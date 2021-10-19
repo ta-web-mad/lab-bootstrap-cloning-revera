@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0%;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #696969;
+    margin: 0px 15px;
+    font-weight: 100;
+}
+
+header img {
+    height: 20px;
+    
+}
+
+main {
+    position: relative;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.hero {
+    background-image: url("img/slider-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 510px;
+    -webkit-filter: grayscale(100%);
+}
+
+.info-section {
+    background-color: rgb(231, 84, 74);
+    width: 100%;
+    height: 340px;
+}
+
+.info-row {
+    height: 340px;
+}
+
+.info-icon {
+    width: 70px;
+    height: 70px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    height: 20px;
+    color: white;
+}
+
+.content-section {
+    background-color: #fff;
+    width: 100%;
+    height: 1200px;
+    padding-top: 80px;
+}
+
+
+.last-section {
+    width: 100%;
+    height: 360px;
+    background-color: #3b3b3b;
+    border-top: 6px solid rgb(231, 84, 74);
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #292929;
+}
+
+.card {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-text {
+    
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(87, 87, 87);
+}
+
+.card-text-2 {
+    text-align: center;
+    line-height: 18px;
+}
+
+.author {
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.author-color {
+    color: red;
+}
+
+.card-title {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.article-title {
+    font-size: 26px;
+    font-weight: 620;
+    letter-spacing: -0.5px;
+    margin: 0px;
+    
+}
+
+.article-subtitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(180, 180, 180);
+}
+
+.article-title-box {
+    border-bottom: 1px solid rgb(209, 209, 209);
+    margin-bottom: 30px;
+}
+
+.landing-row {
+    height: 510px;
+}
+
+.landing-txt {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.landing-btn-txt {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.landing-btn {
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #fff;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.info-txt {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 22px;
+}
+
+h7 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100px;
+}
+
+.last-section-row {
+    height: 360px;
+}
+
+.last-section-txt {
+    font-size: 14px;
+    font-weight: 200;
+    color: lightgray;
+    line-height: 20px;
+}
+
+.last-section-txt-2 {
+    font-size: 14px;
+    font-weight: 200;
+    color: lightgray;
+    margin-bottom: 5px;
+}
+
+.last-section-div {
+    border-bottom: 1px solid rgb(133, 133, 133);
+    margin-bottom: 12px;
+}
+
+.footer-txt {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.footer-row {
+    height: 80px;
+}
+
+.left-arrow {
+    height: 30px;
+    width: 30px;
+    border-top: 8px solid #fff;
+    border-left: 8px solid #fff;
+    -webkit-transform: rotate(-45deg);
+}
+
+.right-arrow {
+    height: 30px;
+    width: 30px;
+    border-top: 8px solid #fff;
+    border-left: 8px solid #fff;
+    -webkit-transform: rotate(135deg);
+}
+
+@media screen (min-width:540px) and (max-width:768px) {
+    .content-section {
+        height: 4000px;
+    }
+    
+    
+}
