@@ -23,7 +23,6 @@ header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 20%;
     margin-bottom: 0%;
 
 }
@@ -37,7 +36,7 @@ header ul li a {
 
 header img {
     height: 20px;
-    margin-left: 15%;
+    
 }
 
 main {
@@ -49,14 +48,9 @@ h1 {
     font-weight: 500;
     color: #fff;
     text-align: center;
+    padding: 0px;
 }
 
-.main-txt {
-    width: ;
-    display: flex;
-    justify-content: center;
-
-}
 
 .hero {
     background-image: url("img/slider-3.jpg");
@@ -66,10 +60,6 @@ h1 {
     width: 100%;
     height: 510px;
     -webkit-filter: grayscale(100%);
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
 }
 
 .info-section {
@@ -78,10 +68,14 @@ h1 {
     height: 340px;
 }
 
+.info-row {
+    height: 340px;
+}
+
 .info-icon {
-    width: 50px;
-    height: 50px;
-    border: 2px solid rgb(255, 255, 255);
+    width: 70px;
+    height: 70px;
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 50%;
     display: flex;
     flex-direction: row;
@@ -91,7 +85,7 @@ h1 {
 }
 
 .icon {
-    height: 15px;
+    height: 20px;
     color: white;
 }
 
@@ -113,4 +107,103 @@ footer {
     width: 100%;
     height: 80px;
     background-color: rgb(84, 84, 85);
+}
+
+.card {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-text {
+    
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(87, 87, 87);
+}
+
+.card-text-2 {
+    text-align: center;
+    line-height: 18px;
+}
+
+.author {
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.author-color {
+    color: red;
+}
+
+.card-title {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.article-title {
+    font-size: 26px;
+    font-weight: 620;
+    letter-spacing: -0.5px;
+    margin: 0px;
+    
+}
+
+.article-subtitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(180, 180, 180);
+}
+
+.article-title-box {
+    border-bottom: 1px solid rgb(209, 209, 209);
+    margin-bottom: 30px;
+}
+
+.landing-row {
+    height: 510px;
+}
+
+.landing-txt {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.landing-btn-txt {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.landing-btn {
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #fff;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.info-txt {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 22px;
 }

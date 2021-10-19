@@ -10,53 +10,63 @@
 </head>
 <body>
     <header>
-        <img src="img/revera_logo.jpg" alt="">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Sample page</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Parent page >></a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="container d-flex justify-content-between">
+            <img src="img/revera_logo.jpg" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sample page</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Parent page >></a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="hero">
-            <div>
+            <div class="container">
+                <div class="row landing-row d-flex align-items-center">
+                    <div class="col-sm-2">
 
-            </div>
-            <div class="main-txt">
-                <h1>FALLAURIS SOLICITIDIN QUIS DOLOR VENATIS FACILISIS</h1>
-            </div>
-            <div>
+                    </div>
+                    <div class="col-sm-8 d-flex flex-column justify-content-center align-items-center">
+                        <h1>FALLAURIS SOLICITIDIN QUIS DOLOR VENATIS FACILISIS</h1>
+                        <p class="landing-txt">Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                        <div class="landing-btn">
+                            <a href="#" class="landing-btn-txt">Read more</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
 
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="info-section">
             <div class="container">
-                <div class="row">
-                    <div class="col-4">
+                <div class="row info-row">
+                    <div class="col-lg-4 col-sm-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="info-icon">
                             <img src="img/glass2.png" alt="glass-icon" class="icon">
                         </div>
-                        <h2></h2>
-                        <p></p>
+                        <h2>Web design</h2>
+                        <p class="info-txt">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="info-icon">
                             <img src="img/star-full.png" alt="glass-icon" class="icon">
                         </div>
-                        <h2></h2>
-                        <p></p>
+                        <h2>Web development</h2>
+                        <p class="info-txt">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="info-icon">
                             <img src="img/heart.png" alt="glass-icon" class="icon">
                         </div>
-                        <h2></h2>
-                        <p></p>
+                        <h2>User interface</h2>
+                        <p class="info-txt">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
                     </div>
                 </div>
             </div>
@@ -66,57 +76,58 @@
 
             <div class="container">
 
-                <h3>LATEST PROJECTS</h3>
-                <P>Few of the latest portfolio items</P>
-
+                <div class="article-title-box">
+                    <h3 class="article-title">LATEST PROJECTS</h3>
+                    <P class="article-subtitle">Few of the latest portfolio items</P>
+                </div>
                 
                 
                 <article>
 
                     <div class="row">
-                        <div class="col-3">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="col-sm-3">
+                            <div class="card" style="width: 17rem;">
+                                <img class="card-img-top" src="img/project-1.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
+                                <p class="card-text-2">Nunc libero elit, iaculis nec augue non</p>
+                                
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-3">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="col-sm-3">
+                            <div class="card" style="width: 17rem;">
+                                <img class="card-img-top" src="img/project-2.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
+                                <p class="card-text-2">Phasellus aliquet iaculis neque accumsan aliquam</p>
+                                
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-3">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="col-sm-3">
+                            <div class="card" style="width: 17rem;">
+                                <img class="card-img-top" src="img/project-3.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
+                                <p class="card-text-2">Vivamus blandit ipsum sed arcu euismod</p>
+                                
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-3">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="col-sm-3">
+                            <div class="card" style="width: 17rem;">
+                                <img class="card-img-top" src="img/project-4.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
+                                <p class="card-text-2">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+                                
                                 </div>
                             </div>
 
@@ -125,57 +136,57 @@
                     </div>
                 </article>
 
-                
-                <h3>LATEST ARTICLES</h3>
-                <P>Latest posts from the blog</P>
-
+                <div class="article-title-box">
+                    <h3 class="article-title">LATEST ARTICLES</h3>
+                    <P class="article-subtitle">Latest posts from the blog</P>
+                </div>
 
                 <article>
 
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="img/slider-1.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam <br> <span class="author">POSTED ON <span class="author-color">AUGUST 19, 2013</span> BY <span class="author-color">ADMIN</span></span></h5>
+                                <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                                
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="img/slider-2.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Falauris sollicitudin quis dolor venenatis facilisis<br><span class="author">POSTED ON <span class="author-color">AUGUST 19, 2013</span> BY <span class="author-color">ADMIN</span></span></h5>
+                                <p class="card-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                                
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="img/slider-3.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Suspendisse ornare, felis feugiat suscipit pharetra<br><span class="author">POSTED ON <span class="author-color">AUGUST 19, 2013</span> BY <span class="author-color">ADMIN</span></span></h5>
+                                <p class="card-text">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                                
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="img/slider-4.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Festibulum purus odio, ornare non posuere<br><span class="author">POSTED ON <span class="author-color">AUGUST 19, 2013</span> BY <span class="author-color">ADMIN</span></span></h5>
+                                <p class="card-text">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+                                
                                 </div>
                             </div>
 
