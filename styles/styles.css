@@ -1,0 +1,192 @@
+/* General Styles */
+
+body {
+    height: 100vh;
+}
+
+/* Header Styles */
+
+header {
+    height: 150px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 50px;
+}
+
+.flex-container h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #777;
+    margin: 0;
+    padding: 19px 10px 19px 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+#link {
+    color: #f4473a;
+    text-decoration: none;
+}
+
+.nav-bar>li>a {
+    text-decoration: none;
+}
+
+.nav-bar>li>a:hover {
+    text-decoration: none;
+    color: #f4473a;
+}
+
+
+/* Main Styles */
+
+main {
+    height: 360px;
+    background-color: black;
+}
+
+main>div>div>img {
+    filter: grayscale(100%);
+}
+
+.carousel-caption {
+    position: fixed;
+    top: 200px;
+}
+
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+}
+
+a.frmore {
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff
+}
+
+.carousel-control-prev {
+    background-color: #f4473a;
+    height: 100px;
+    width: 50px;
+    margin: -50px 0 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    z-index: 110;
+    cursor: pointer;
+}
+
+.carousel-control-prev>span {
+    padding-top: 100px;
+}
+
+.carousel-control-next {
+    background-color: #f4473a;
+    height: 100px;
+    width: 50px;
+    margin: -50px 0 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    z-index: 110;
+    cursor: pointer;
+}
+
+.carousel-control-next>span {
+    padding-top: 100px;
+}
+
+
+
+/* Red Section Styles */
+
+#red-sect {
+    height: 500px;
+    margin: 115px 0;
+    background-color: #ed564b;
+    position: sticky;
+}
+
+.homewidget {
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.col-sm-4 i {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* Site-Content Styles */
+
+.card {
+    border: none;
+    padding: 20px;
+}
+
+
+/* Bottom Styles */
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+#bottom h3 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: white;
+}
+
+#bottom p, li {
+    text-align: left;
+    color: #aaa;
+    font-size: 0.8em;
+    list-style: none;
+}
+
+#bottom ul {
+    padding-inline-start: 0px;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+    padding: 20px 0px;
+    background: #292929;
+    color: #EEE;
+}
+
+footer .col-12 {
+    font-size: 0.7em;
+    margin-left: 0;
+    padding-left: 0;
+}
