@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.carousel {
+    background-image: url("./img/slider-1.jpg");
+    height: 550px;
+    background-size: cover;
+    padding: 160px;
+    text-align: center;
+
+}
