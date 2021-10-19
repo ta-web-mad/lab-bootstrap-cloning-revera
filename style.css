@@ -250,3 +250,27 @@ h7 {
 .footer-row {
     height: 80px;
 }
+
+.left-arrow {
+    height: 30px;
+    width: 30px;
+    border-top: 8px solid #fff;
+    border-left: 8px solid #fff;
+    -webkit-transform: rotate(-45deg);
+}
+
+.right-arrow {
+    height: 30px;
+    width: 30px;
+    border-top: 8px solid #fff;
+    border-left: 8px solid #fff;
+    -webkit-transform: rotate(135deg);
+}
+
+@media screen (min-width:540px) and (max-width:768px) {
+    .content-section {
+        height: 4000px;
+    }
+    
+    
+}
