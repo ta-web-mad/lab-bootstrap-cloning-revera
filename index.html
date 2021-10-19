@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Revera</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-2">
+            <div class="container-fluid" id="navbar-nav">
+              <a class="navbar-brand" id="logo" href="#">Revera</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item px-3" >
+                    <a class="nav-link active" aria-current="page" href="#" id="active-home">Home</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#">Sample Page</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown px-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Parent page
+                    </a>
+                    <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdownMenuLink" id="dropdow">
+                      <li><a class="dropdown-item py-2" href="#" id="dropdowhr">Action</a></li>
+                      <li><a class="dropdown-item py-2" href="#" id="dropdowhr">Another action</a></li>
+                      <li><a class="dropdown-item py-2" href="#" >Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/slider-1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-lg-block dark">
+        <h5 class="m-4">Dog and cat</h5>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit qui dolore sit totam quasi autem placeat veniam incidunt voluptatibus nihil vitae est quisquam quaerat nostrum, corporis molestias molestiae nam fugiat.</p>
+        <a href="/LearnMore">Learn more</a>
+      </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/slider-2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-lg-block dark">
+                <h5 class="m-4">Plant</h5>
+                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo inventore et veritatis ut accusantium pariatur voluptatem dignissimos officiis possimus maxime. Nesciunt laudantium iure cupiditate possimus facilis repellat quibusdam fuga rerum?</p>
+                <a href="/LearnMore">Learn more</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/slider-3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-lg-block dark">
+                <h5 class="m-4">Flowers</h5>
+                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea quas dolore quis iste culpa? Blanditiis recusandae debitis ut magnam deserunt id, voluptatum tempore, cum officiis sit, hic minima expedita.</p>
+                <a href="/LearnMore">Learn more</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/slider-4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-lg-block dark">
+                <h5 class="m-4">Mountain</h5>
+                <p class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam maxime sint incidunt iure magnam, quaerat maiores cum voluptatibus nulla veniam error tenetur porro inventore non enim possimus praesentium velit facilis.</p>
+                <a href="/LearnMore" class="btn-learn">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section>
+        <div class="icons-display">
+          <div class="container">
+            <div class="row justify-content-between text-center text-light p-5">
+              <div class="col-lg-4 col-12">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 32 32" id="icon" fill="white">
+                  <title>glass2</title>
+                  <path d="M27.786 5.618c0.236-0.301 0.28-0.711 0.113-1.055s-0.517-0.563-0.899-0.563h-22c-0.383 0-0.732 0.219-0.899 0.563s-0.123 0.754 0.113 1.055l9.786 12.455v11.927h-3c-0.552 0-1 0.448-1 1s0.448 1 1 1h10c0.552 0 1-0.448 1-1s-0.448-1-1-1h-3v-11.927l9.786-12.455zM24.943 6l-3.143 4h-11.599l-3.143-4h17.885z"></path>
+                </svg>
+                <h2 class="mb-4">Drink</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                  maxime illum fugit magni. Nulla rem saepe voluptates, sed facilis
+                  eos et error. Ratione, adipisci. Placeat ullam reiciendis nisi
+                  nesciunt adipisci!
+                </p>
+              </div>
+              <div class="col-lg-4 col-12">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 32 32"  id="icon" fill="white">
+                  <title>star-full</title>
+                  <path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path>
+                  </svg>
+                <h2 class="mb-4">Pary</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                  maxime illum fugit magni. Nulla rem saepe voluptates, sed facilis
+                  eos et error. Ratione, adipisci. Placeat ullam reiciendis nisi
+                  nesciunt adipisci!
+                </p>
+              </div>
+              <div class="col-lg-4 col-12">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 32 32"  id="icon" fill="white">
+                  <title>heart</title>
+                  <path d="M23.6 2c-3.363 0-6.258 2.736-7.599 5.594-1.342-2.858-4.237-5.594-7.601-5.594-4.637 0-8.4 3.764-8.4 8.401 0 9.433 9.516 11.906 16.001 21.232 6.13-9.268 15.999-12.1 15.999-21.232 0-4.637-3.763-8.401-8.4-8.401z"></path>
+                  </svg>
+                <h2 class="mb-4">Love</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                  maxime illum fugit magni. Nulla rem saepe voluptates, sed facilis
+                  eos et error. Ratione, adipisci. Placeat ullam reiciendis nisi
+                  nesciunt adipisci!
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="pb-5" id="icons">
+        <div class="container">
+          <div class="row justify-content-between m-2">
+            <h4 class="mt-5">Lastest projects</h4>
+            <h6 class="text-secondary">Few of the lastest portfolio items</h6>
+            <hr>
+            <div class="col-lg-3 col-md-6 col-12 text-center mt-2">
+              <a href="">
+                <img src="./img/project-1.jpg" alt="" class="col-12" id="imagen">
+                <p class="mt-4" id="article">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center mt-2">
+              <a href="">
+                <img src="./img/project-2.jpg" alt="" class="col-12" id="imagen">
+                <p class="mt-4" id="article">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center mt-2">
+              <a href="">
+                <img src="./img/project-3.jpg" alt="" class="col-12" id="imagen">
+                <p class="mt-4" id="article">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center mt-2">
+              <a href="">
+                <img src="./img/project-4.jpg" alt="" class="col-12" id="imagen">
+                <p class="mt-4" id="article">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </a>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-between">
+            <h4 class="mt-5">Lastest articles</h4>
+            <h6 class="text-secondary">Lastest post of the blog</h6>
+            <hr>
+            <div class="col-lg-3 col-12 text-justify mt-2">
+              <a href="">
+                <img src="./img/slider-1.jpg" alt="" class="col-12" id="imagen">
+                <p class="mt-4" id="article2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </a> 
+              <h6 class="text-secondary" id="article-title">POSTED ON <a href="" id="a-data">AUGUST 19, 2013</a> BY <a href="" id="a-data">ADMIN</a></h6>
+              <p class="mt-3" id="slider-container">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur soluta aut dignissimos, eveniet magnam natus incidunt voluptatibus quo sit obcaecati voluptatem delectus unde? Dolorem esse at autem, beatae perspiciatis corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem autem magnam cumque quas iusto sapiente itaque molestiae laudantium adipisci, laboriosam quae illo quam ullam iure odio, corrupti nihil atque.
+              </p>
+            </div>
+            <div class="col-lg-3 col-12 text-justify mt-2">
+              <a href="">
+                <img src="./img/slider-2.jpg" alt="" class="col-12" id="imagen">
+                <p class="mt-4" id="article2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </a> 
+              <h6 class="text-secondary" id="article-title">POSTED ON <a href="" id="a-data">AUGUST 19, 2013</a> BY <a href="" id="a-data">ADMIN</a></h6>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur soluta aut dignissimos, eveniet magnam natus incidunt voluptatibus quo sit obcaecati voluptatem delectus unde? Dolorem esse at autem, beatae perspiciatis corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem autem magnam cumque quas iusto sapiente itaque molestiae laudantium adipisci, laboriosam quae illo quam ullam iure odio, corrupti nihil atque.
+              </p>
+            </div>
+            <div class="col-lg-3 col-12 text-justify mt-2">
+              <a href="">
+                <img src="./img/slider-3.jpg" alt="" class="col-12" id="imagen">
+                <p class="mt-4" id="article2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </a> 
+              <h6 class="text-secondary" id="article-title">POSTED ON <a href="" id="a-data">AUGUST 19, 2013</a> BY <a href="" id="a-data">ADMIN</a></h6>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur soluta aut dignissimos, eveniet magnam natus incidunt voluptatibus quo sit obcaecati voluptatem delectus unde? Dolorem esse at autem, beatae perspiciatis corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem autem magnam cumque quas iusto sapiente itaque molestiae laudantium adipisci, laboriosam quae illo quam ullam iure odio, corrupti nihil atque.
+
+              </p>
+            </div>
+            <div class="col-lg-3 col-12 ttext-justify mt-2">
+              <a href="">
+                <img src="./img/slider-4.jpg" alt="" class="col-12" id="imagen">
+                <p class="mt-4" id="article2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </a> 
+              <h6 class="text-secondary" id="article-title">POSTED ON <a href="" id="a-data">AUGUST 19, 2013</a> BY <a href="" id="a-data">ADMIN</a></h6>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur soluta aut dignissimos, eveniet magnam natus incidunt voluptatibus quo sit obcaecati voluptatem delectus unde? Dolorem esse at autem, beatae perspiciatis corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem autem magnam cumque quas iusto sapiente itaque molestiae laudantium adipisci, laboriosam quae illo quam ullam iure odio, corrupti nihil atque.
+              </p>
+            </div>
+            
+        </div>
+      </section>
+      <section id="footer-gray" class="mt-5">
+        <div class="container">
+          <div class="row justify-content-between">
+              <div class="col-lg-3 col-6 mt-5">
+                <h6 class="text-light">Revera</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                  maxime illum fugit magni. Nulla rem saepe voluptates, sed facilis
+                  eos et error. Ratione, adipisci. Placeat ullam reiciendis nisi
+                  nesciunt adipisci!
+                </p>
+              </div>
+              <div class="col-lg-3 col-6  mt-5">
+                <h6 class="text-light">Meta</h6>
+                <ul>
+                  <li><a href="">Log In</a></li>
+                  <li><a href="">Enter RSS</a></li>
+                  <li><a href="">Comments RSS</a></li>
+                  <li><a href="">WordPress.org</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-6 mt-5">
+                <h6 class="text-light">Archives</h6>
+                <ul>
+                  <li><a href="">August 2013</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-6  mt-5">
+                <h6 class="text-light">Recent post</h6>
+                <ul>
+                  <li>
+                    <a href=""
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Molestiae maxime illum fugit magni</a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      >Lorem adipisicing elit. Molestiae maxime illum fugit magni</a
+                    >
+                  </li>
+                  <li>
+                    <a href="">Placeat ullam reiciendis nisi nesciunt adipisci!</a>
+                  </li>
+                  <li><a href="">Lorem adipisicing elit.</a></li>
+                  <li><a href="">Sed facilis eos et error.</a></li>
+                </ul>
+              </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
