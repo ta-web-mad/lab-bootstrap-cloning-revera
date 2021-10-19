@@ -159,4 +159,18 @@ section {
 	height: auto;
 	max-width: 100%;
 }
-
+.has-sub-menu::after {
+	content: '\276F';
+}
+.has-sub-menu:hover + .submenu {
+	transform: translateX(0);
+	opacity: 1;
+	transition: all 0.8s ease-in-out;
+}
+.submenu {
+	transform: translateX(-80px);
+	opacity: 0;
+}
+.submenu li {
+	padding: 0.5rem;
+}
