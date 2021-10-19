@@ -1,8 +1,6 @@
-body{
-    min-width: 800px;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    min-width: 800px !important;
+
+p{
+    padding-top: 10px;
 }
 
 body a {
@@ -22,6 +20,7 @@ header{
     width: 1170px;
     height: 90px;
     padding: 25px;
+    
 }
 
 section{
@@ -33,14 +32,19 @@ hr{
     size: 3px;
 }
 
-header ul{
+ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 15px;
 }
 
-header li{
-    padding: ;
+#current-page{
+    color: #f4473a;
+}
+
+main span{
+    color: #f4473a;
 }
 
 .section1{
@@ -50,12 +54,53 @@ header li{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: ceter;
+    color: white;
+}
+.section1 div{
+    padding-top: 100px;
+    width: 50%;
+    
+}
+
+button {
+    background: rgba(255,255,255,0.2);
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+button a{
+    text-transform: uppercase;
+    color: white;
 }
 
 .section2{
     width: 1900px;
     height: 315px;
     background-color: #ed564b;
+    color: white;
+    align-content:;
+}
+
+div .icon{
+    align-content: center;
+    border: 5px solid #fff;
+    border-radius: 35px;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 5px;
+}
+
+div .icon img{
+    padding: ;
+    width: 30px;
+    fill: white;!important
+
 }
 
 .section3{
@@ -63,6 +108,28 @@ header li{
     height: 1125;
 }
 
+.section3 .text-center{
+    margin-bottom: 80px;    
+}
+
+h2{
+    padding: 10px;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+h5{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #aaa;
+}
+
+h6{
+    padding-top: 10px;
+}
 
 .footer-section1{
     width: 1900px;
