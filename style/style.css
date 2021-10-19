@@ -1,0 +1,154 @@
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 300px 10px 300px;
+    align-items: center;
+}
+
+.menu-static ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-static li>a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.images{
+    list-style: none;
+}
+
+.image_background
+{
+    background-image:url(/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: grayscale(100%);
+
+}
+
+.main-text{
+    padding: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text h1{
+    color: white;
+    max-width: 50%;
+    text-align: center;
+}
+
+.main-text p{
+    color: white;
+    max-width: 60%;
+    text-align: center;
+}
+
+.main-text a{
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 30px;
+    background-color: rgb(110, 107, 107);
+    opacity: 0.5;
+
+}
+
+.under_image{
+    background-color: #eb564c;
+}
+
+.logo{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img{
+    width: 70px;
+    border: black solid 8px;
+    border-radius: 50%; 
+    padding: 10px;
+    filter: invert(100%) sepia(0%) saturate(7446%) hue-rotate(116deg) brightness(96%) contrast(96%);
+    margin-bottom: 20px;
+}
+
+.logo h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.logo p{
+    color: white   ;
+    text-align: center;
+}
+
+.title1{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.projects-img p{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.1;
+}
+
+.projects-img img{
+    width: 270px;
+    height: 180px;
+}
+
+.articles p{
+    text-align: left;
+    font-weight: lighter;
+}
+
+.articles h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.no-list-style ul{
+    list-style: none;
+    margin-left: -10%;
+}
+
+.no-list-style li{
+    padding: 7px 0px 7px 0px;
+}
+
+.links{
+    border-top: #eb564c solid 5px;
+    background-color: #3b3b3b;
+}
+
+.links-row{
+    padding-top: 3%;
+    color: white;
+}
+
+.links-row p{
+    font-weight: lighter;
+}
+
+.links-row ul li{
+    font-weight: lighter;
+    border-bottom:#e4d2d2 dashed 1px ;
+}
+
+.footer{
+    background-color: rgb(46, 45, 45);
+    height: 10vh;
+}
+
+.footer footer{
+    margin-left: 7%;
+    color: white;
+}
