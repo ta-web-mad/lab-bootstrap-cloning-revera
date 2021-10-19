@@ -1,0 +1,142 @@
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.res {
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.menu nav ul {
+    display: flex;
+    list-style-type: none;
+}
+ 
+.list {
+    color: gray;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.home {
+    color: red;
+}
+
+.list:hover {
+    color: red;
+}
+
+.res:hover {
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    background-image: url(../img/b&w.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.arrow{
+    color: white;
+    background-color: rgb(214, 84, 84);
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow a {
+    color: white;
+}
+
+.arrow a:hover {
+    color: red;
+}
+
+.arrow:hover {
+    background-color: white;
+}
+
+
+.read a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.read {
+    margin-top: 10px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.row {
+    background-color: rgb(228, 85, 85);
+    color: white;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    width: 1845px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.parr2{
+    font-size: 14px;
+    width: 400px;
+    margin-left: 90px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.col-sm-3 {
+    height: 200px;
+}
+
+.col-6 {
+    height: 200px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
