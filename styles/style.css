@@ -1,0 +1,110 @@
+.navbar {
+    margin: 120px auto 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navbar ul {
+    margin-bottom: 8px;
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#home {
+    color: red;
+}
+
+.hero {
+    height: 550px;
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero > div > a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 41px 20.5px;
+    background-color: rgb(211, 65, 65);
+}
+
+.main {
+    height:300px;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+h2 {
+    padding-top: 140px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main p a {
+    padding: 5px;
+    border: 2px solid white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.redbackground {
+    border-top: 5px solid rgb(255, 102, 0);
+    border-bottom: 5px solid rgb(255, 102, 0);
+    background-color: rgb(211, 65, 65);
+}
+
+.features {
+    padding: 50px 0;!important;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    -webkit-filter: invert(100%);
+}
+
+.features div div {
+    text-align: center;
+}
+
+.latestprojects {
+    height: 180px;
+    width: 270px;
+}
+
+.latestarticles {
+    height: 180px;
+    width: 270px;
+}
+
+
