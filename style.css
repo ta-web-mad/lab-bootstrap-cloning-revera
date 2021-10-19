@@ -100,13 +100,14 @@ h1 {
 .last-section {
     width: 100%;
     height: 360px;
-    background-color: #1b1b1c;
+    background-color: #3b3b3b;
+    border-top: 6px solid rgb(231, 84, 74);
 }
 
 footer {
     width: 100%;
     height: 80px;
-    background-color: rgb(84, 84, 85);
+    background-color: #292929;
 }
 
 .card {
@@ -206,4 +207,46 @@ h2 {
     font-weight: 300;
     text-align: center;
     line-height: 22px;
+}
+
+h7 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100px;
+}
+
+.last-section-row {
+    height: 360px;
+}
+
+.last-section-txt {
+    font-size: 14px;
+    font-weight: 200;
+    color: lightgray;
+    line-height: 20px;
+}
+
+.last-section-txt-2 {
+    font-size: 14px;
+    font-weight: 200;
+    color: lightgray;
+    margin-bottom: 5px;
+}
+
+.last-section-div {
+    border-bottom: 1px solid rgb(133, 133, 133);
+    margin-bottom: 12px;
+}
+
+.footer-txt {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.footer-row {
+    height: 80px;
 }
