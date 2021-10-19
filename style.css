@@ -1,0 +1,151 @@
+img{
+    height: 160px;
+    width: 260px;
+}
+.container .navbar{
+    margin-top: 9%;
+    margin-bottom: 3%;
+}
+.container .navbar h1{
+font-family: Helvetica;
+font-size: 2rem;
+font-weight: 900;
+}
+
+.container .navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.container .navbar ul li{
+    padding: 0 10px;
+}
+.container .navbar li a{
+    
+    text-decoration: none;
+    color: #a1a1a1;
+    font-family: sans-serif;
+}
+
+ .selected{
+    color: #ed564b !important;
+}
+
+.hero{
+    height: 550px;
+    filter: grayscale(100%);
+    background-image: url(./img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hero span{
+    background-color: #ed564b;
+    z-index: 9;
+}
+.hero  i{
+padding: 20px;
+font-size: 40px;
+
+}
+
+.main{
+    color: white;
+    text-align: center;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 50% !important;
+   
+}
+
+
+
+.main a{
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px 8px;
+    font-weight: 600;
+    border: 1px solid white;
+    text-decoration: none;
+    width: fit-content;
+    
+}
+
+.pre-hero{
+    background-color:#ed564b ;
+}
+.list{
+    padding: 2%
+}
+
+.list .row div{
+    text-align: center;
+    color: white;;
+}
+
+.latest-projects{
+    margin: 3rem;
+}
+
+
+.subtitle{
+    color: #a1a1a1;
+    font-size: 0.9em;
+}
+
+.latest-articles .row div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.latest-articles{
+    padding: 10px 0;
+}
+.red-text{
+    color: #ed564b;
+}
+
+.latest-projects .row div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.latest-projects .row div strong{
+   margin: 5px 0;
+}
+
+.bottom{
+    margin-top: 3rem;
+
+}
+.bottom-info{
+    background-color: #606060;
+    border-top: 5px solid #ed564b ;
+}
+
+.footer{
+    background-color: #333;
+  
+}
+
+.foot{
+    color: white;
+    padding: 15px;
+}
+
+.bottom ul{
+    list-style: none;
+}
+
+.list i{
+    padding: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
