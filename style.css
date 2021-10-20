@@ -44,6 +44,12 @@ ul {
   background-color: black;
   transition: 1s;
 }
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+.carousel-control-next {
+  justify-content: flex-end;
+}
 .carousel-control-prev-icon {
   background-color: #ed564b;
   height: 15%;
@@ -51,6 +57,7 @@ ul {
 }
 .carousel-control-next-icon {
   background-color: #ed564b;
+
   height: 15%;
   width: 20%;
 }
