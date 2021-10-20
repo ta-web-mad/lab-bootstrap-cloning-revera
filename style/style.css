@@ -1,0 +1,22 @@
+.nav-revera-ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: #777777;
+    list-style-type: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+}
