@@ -16,6 +16,16 @@ header > div {
 }
 header nav {
     margin-right: 25%;
+    z-index: 9999999;
+}
+header nav i {
+    width: 30px;
+    height: 30px;
+    display: none;
+    background-image:url('../img/hanburguesa.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header h1 {
     background-color: #fff;
@@ -28,9 +38,9 @@ header ul {
     align-items: center;
     list-style: none;
 }
-header ul li {
+/* header ul li {
      
-}
+} */
 header ul a {
     font-size: 12px;
     font-weight: 400;
@@ -68,7 +78,7 @@ header ul li a span {
     height: 100%;
     left: 0px;
     top: 0px;
-    z-index: 1;
+    z-index:  0;
 }
 .section-1 div {
     width: 100%;
@@ -88,6 +98,7 @@ header ul li a span {
     top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    z-index: 20;
 }
 .section-1 div article h2 {
     font-size: 36px;
@@ -111,6 +122,7 @@ header ul li a span {
     text-decoration: none;
     text-align: center; 
     background-color: rgba(255,255,255,0.3);  
+    cursor: pointer;
 }
 .section-1 div article a:hover {
     color: #000;
@@ -191,10 +203,23 @@ header ul li a span {
     color: #000;
     font-size: 14px; 
 }
+.section-3 h4 {
+    width: 100%;
+    text-align: left;
+    color: #000;
+    font-size: 20px; 
+    font-weight: 700;
+    margin-top:20px;
+    text-align: left;
+}
+.col-sm-4 p {
+    text-align: left;
+    color: #7b7979;
+}
 .section-3 h5 {
     text-align: left;
     color: #000;
-    font-size: 14px; 
+    font-size: 16px; 
     font-weight: 700;
     margin-top:20px;
     margin-bottom: 10px;
@@ -280,4 +305,48 @@ footer div a {
 }
 footer div a:hover {
     color: #fff;   
+}
+@media only screen and (max-width: 800px) {
+    /* header nav i:hover {
+        display: block;
+    } */
+    header > div {
+        width: 97%;
+     }
+    header nav {
+        padding: 10px;
+        margin-right: 0%;
+    }
+
+    header ul {
+        width: 120px;
+        height: 150px;
+        position: absolute;
+        display: none;
+        right:10px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: right;
+        list-style: none;
+        z-index: 999999;
+        background-color: #fff;
+        padding: 10px 0px;
+        text-align: right;
+    }
+    header nav i{
+        display: block;
+    }
+    
+    header ul li {
+        align-items: left; 
+        text-align: right;  
+    }
+    header nav:hover ul {
+        display: block;
+        position: absolute;
+        
+    }
+    header nav h1 {
+        margin-rleft: 10px;
+    }
 }
