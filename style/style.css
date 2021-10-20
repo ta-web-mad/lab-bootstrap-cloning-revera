@@ -1,0 +1,145 @@
+
+.over_img{
+    background-image: url("../img/overlay.png");
+    z-index: 99;
+}
+.carousel-inner{
+    position: relative;
+    z-index: -1;
+}
+
+.carousel-caption{
+    bottom: 130px;
+}
+
+ul{
+    margin-left: auto;
+}
+.logo{
+    font-weight: 600;
+}
+
+h6{
+    font-size: 40px;
+}
+.subtitle{
+    font-size: 16px;
+}
+#header{
+    background-color: white!important;
+    height: 90px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ed564a;
+}
+
+.d-block{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+a.frmore{
+background: rgba(255,255,255,0.2);
+display: block;
+text-transform: uppercase;
+color: #fff;
+width: 150px;
+border: 1px solid white;
+padding: 5px 0px;
+margin: 10px auto;
+font-weight: bold;
+color: #fff!important;
+z-index: 999!important;
+
+}
+
+.icons{
+    height: 20px;
+}
+
+.material-icons {
+
+    border-radius: 50px;
+    border: white solid;
+    padding: 0.5em 0.6em;
+    margin: 0px auto;
+    font-size: 20px;
+  
+  }
+
+  .col-sm-4.homewidget{
+    text-align: center;
+    color: white;
+
+  }
+  .container{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 65px;
+
+  }
+  #footer_bottom{
+    margin-top: 65px;
+    border-top: 5px solid #ed564b;
+
+  }
+  #icon_section{  
+  background-color: #ed564a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+h5{
+    font-size: 12px;
+    text-align: center;
+}
+
+.card-title{
+    text-align: left;
+    font-weight: 800;
+}
+.card-title2{
+    font-weight: 800;
+}
+.projects_color{
+    color: red;
+}
+
+.list-unstyled{
+    text-align: left;
+    color: #aaa;
+}
+.text-dark{
+    color: #aaa!important;
+
+}
+
+.text-dark:hover{
+    color: white!important;
+
+}
+.subt{
+    color: gray;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+hr{
+    border-top: 1px dotted #aaa;
+}
+.text-uppercase.mb-0{
+    text-align: left;
+    color: white;
+}
+
+.bg-light{
+    background-color: #3b3b3b!important;
+}
+.copyright{
+    color: white;
+    font-size: 12px;
+}
