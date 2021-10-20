@@ -205,3 +205,16 @@ section {
 	-webkit-box-shadow: 2px 9px 13px -1px #000000;
 	box-shadow: 2px 9px 13px -1px #000000;
 }
+#bottom {
+	padding: 20px 0px 40px 0px;
+	background: #3b3b3b;
+	border-top: 5px solid #ed564b;
+}
+.botwid {
+	color: #aaa;
+}
+.site-footer {
+	padding: 10px 0px;
+	background: #292929;
+	font-size: 12px;
+}
