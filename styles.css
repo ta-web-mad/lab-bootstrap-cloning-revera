@@ -1,0 +1,54 @@
+* {
+  margin:  0;
+  padding: 0;
+}
+
+h1 {
+    color: lightsalmon;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flexbox;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+h2 {
+    color: lightsalmon;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    
+    
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+nav li {
+     list-style: none;
+     margin-right: 25px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.sec1 img {
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+.sec1 p {
+    text-align: center;
+    color: lightgray
+}
+
+.sec1 button {
+    padding-left: ;
+}
+
