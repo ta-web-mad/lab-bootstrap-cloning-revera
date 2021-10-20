@@ -212,6 +212,10 @@ section {
 }
 .botwid {
 	color: #aaa;
+	padding-left: 5px;
+}
+.botwid p {
+	padding: 5px;
 }
 .site-footer {
 	padding: 10px 0px;
@@ -221,4 +225,5 @@ section {
 .fcred {
 	padding: 10px 0px;
 	color: #eee;
+	text-align: center;
 }
